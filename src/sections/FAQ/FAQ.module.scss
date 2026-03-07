@@ -1,0 +1,70 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.list {
+  max-width: 800px;
+  margin: 0 auto;
+  @include flex-column;
+  gap: $space-3;
+}
+
+.item {
+  background: $color-white;
+  border-radius: $radius-md;
+  box-shadow: $shadow-sm;
+  overflow: hidden;
+  border: 1px solid $color-border;
+  transition: border-color $transition-base;
+
+  &:hover {
+    border-color: rgba($color-gold, 0.3);
+  }
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $space-5 $space-6;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  gap: $space-4;
+
+  span {
+    font-family: $font-sans;
+    font-weight: 700;
+    font-size: $fs-base;
+    color: $color-text;
+    line-height: 1.4;
+  }
+
+  svg {
+    flex-shrink: 0;
+    color: $color-gold;
+    transition: transform $transition-base;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.open {
+  .question svg {
+    transform: rotate(180deg);
+  }
+}
+
+.answer {
+  overflow: hidden;
+
+  p {
+    padding: 0 $space-6 $space-5;
+    @include body-text;
+    color: $color-text-secondary;
+    font-size: $fs-sm;
+    line-height: 1.8;
+  }
+}
+

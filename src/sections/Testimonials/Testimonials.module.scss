@@ -1,0 +1,89 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.carousel {
+  display: grid;
+  gap: $space-6;
+
+  @include tablet-up { grid-template-columns: repeat(2, 1fr); }
+  @include desktop { grid-template-columns: repeat(3, 1fr); }
+}
+
+.card {
+  background: $color-white;
+  border-radius: $radius-lg;
+  padding: $space-8;
+  box-shadow: $shadow-md;
+  position: relative;
+  transition: all $transition-base;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow-lg;
+  }
+}
+
+.quote {
+  position: absolute;
+  top: $space-4;
+  left: $space-6;
+  font-family: $font-serif;
+  font-size: 4rem;
+  color: rgba($color-gold, 0.15);
+  line-height: 1;
+  user-select: none;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+  margin-bottom: $space-4;
+
+  svg {
+    width: 16px;
+    height: 16px;
+    color: $color-gold;
+    fill: $color-gold;
+  }
+}
+
+.text {
+  @include body-text;
+  color: $color-text-secondary;
+  font-style: italic;
+  font-size: $fs-sm;
+  line-height: 1.8;
+  margin-bottom: $space-6;
+  min-height: 80px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, $color-yellow-light, $color-energy-light);
+  @include flex-center;
+  font-family: $font-serif;
+  font-weight: 700;
+  font-size: $fs-sm;
+  color: $color-gold;
+  flex-shrink: 0;
+}
+
+.authorName {
+  font-weight: 700;
+  font-size: $fs-sm;
+  color: $color-text;
+}
+
+.authorAge {
+  font-size: $fs-xs;
+  color: $color-text-light;
+}
+

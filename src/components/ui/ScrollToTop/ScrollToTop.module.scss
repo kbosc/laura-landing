@@ -1,0 +1,37 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.button {
+  position: fixed;
+  bottom: $space-8;
+  right: $space-8;
+  z-index: 90;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  @include flex-center;
+  background: linear-gradient(135deg, $color-gold, $color-energy);
+  color: $color-white;
+  box-shadow: $shadow-lg;
+  transition: all $transition-base;
+
+  svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  &:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: $shadow-xl;
+  }
+
+  @include mobile {
+    bottom: $space-6;
+    right: $space-6;
+    width: 44px;
+    height: 44px;
+  }
+}
+

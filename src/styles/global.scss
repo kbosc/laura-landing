@@ -1,0 +1,42 @@
+// ============================================
+// Global Styles — EnAIRgie & Diététique
+// ============================================
+@use 'reset';
+@use 'variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@300;400;700&family=Caveat:wght@400;700&display=swap');
+
+body {
+  font-family: $font-sans;
+  font-weight: 400;
+  font-size: $fs-base;
+  color: $color-text;
+  background-color: $color-bg;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::selection {
+  background-color: rgba($color-gold, 0.25);
+  color: $color-text;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: $color-bg;
+}
+::-webkit-scrollbar-thumb {
+  background: $color-gold-light;
+  border-radius: $radius-full;
+  &:hover {
+    background: $color-gold;
+  }
+}
+

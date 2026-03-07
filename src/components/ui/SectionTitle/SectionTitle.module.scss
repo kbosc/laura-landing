@@ -1,0 +1,28 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.wrapper {
+  text-align: center;
+  margin-bottom: $space-12;
+}
+
+.title {
+  @include heading(clamp(1.8rem, 3.5vw, 2.8rem));
+  margin-bottom: $space-3;
+}
+
+.subtitle {
+  font-family: $font-accent;
+  font-size: clamp($fs-lg, 2.5vw, $fs-xl);
+  color: $color-gold;
+  font-weight: 400;
+}
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, $color-diet, $color-energy);
+  border-radius: $radius-full;
+  margin: $space-6 auto 0;
+}
+

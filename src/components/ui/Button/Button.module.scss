@@ -1,0 +1,90 @@
+@use 'sass:color';
+@use '../../../styles/variables' as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  padding: $space-3 $space-6;
+  border-radius: $radius-xl;
+  font-family: $font-sans;
+  font-weight: 700;
+  font-size: $fs-sm;
+  letter-spacing: 0.02em;
+  transition: all $transition-base;
+  border: 2px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.diet {
+  background-color: $color-diet;
+  color: $color-white;
+  &:hover {
+    background-color: color.adjust($color-diet, $lightness: -8%);
+    box-shadow: 0 6px 20px rgba($color-diet, 0.35);
+  }
+}
+
+.energy {
+  background-color: $color-energy;
+  color: $color-white;
+  &:hover {
+    background-color: color.adjust($color-energy, $lightness: -8%);
+    box-shadow: 0 6px 20px rgba($color-energy, 0.35);
+  }
+}
+
+.gold {
+  background-color: $color-gold;
+  color: $color-white;
+  &:hover {
+    background-color: color.adjust($color-gold, $lightness: -8%);
+    box-shadow: 0 6px 20px rgba($color-gold, 0.35);
+  }
+}
+
+.outline {
+  background-color: transparent;
+  border-color: $color-gold;
+  color: $color-gold;
+  &:hover {
+    background-color: $color-gold;
+    color: $color-white;
+  }
+}
+
+.ghost {
+  background-color: transparent;
+  color: $color-text;
+  padding: $space-2 $space-4;
+  &:hover {
+    color: $color-gold;
+    background-color: rgba($color-gold, 0.08);
+  }
+}
+
+.lg {
+  padding: $space-4 $space-8;
+  font-size: $fs-base;
+  border-radius: $radius-xl;
+}
+
+.sm {
+  padding: $space-2 $space-4;
+  font-size: $fs-xs;
+}
+
+
+
+
+

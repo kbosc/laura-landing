@@ -1,0 +1,209 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: $navbar-height;
+  transition: all $transition-slow;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.scrolled {
+  @include glass;
+  box-shadow: $shadow-sm;
+}
+
+.inner {
+  @include container;
+  @include flex-between;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+  cursor: pointer;
+
+  img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.logoText {
+  font-family: $font-serif;
+  font-size: $fs-lg;
+  font-weight: 700;
+  color: $color-text;
+
+  span {
+    color: #5bb8e8;
+  }
+}
+
+.navLinks {
+  display: none;
+  align-items: center;
+  gap: $space-8;
+
+  @include desktop {
+    display: flex;
+  }
+}
+
+.navItem {
+  position: relative;
+  font-family: $font-sans;
+  font-size: $fs-sm;
+  font-weight: 700;
+  color: $color-text;
+  cursor: pointer;
+  transition: color $transition-base;
+  padding: $space-2 0;
+  background: none;
+  border: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: $color-gold;
+    transition: width $transition-base;
+    border-radius: $radius-full;
+  }
+
+  &:hover,
+  &.active {
+    color: $color-gold;
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.dropdown {
+  position: relative;
+
+  &:hover .dropdownMenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+  @include glass;
+  border-radius: $radius-md;
+  box-shadow: $shadow-lg;
+  padding: $space-2;
+  min-width: 180px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all $transition-base;
+
+  a {
+    display: block;
+    padding: $space-2 $space-4;
+    font-size: $fs-sm;
+    border-radius: $radius-sm;
+    transition: background $transition-fast;
+    white-space: nowrap;
+    &:hover {
+      background-color: rgba($color-gold, 0.1);
+      color: $color-gold;
+    }
+  }
+}
+
+.ctaBtn {
+  display: none;
+  @include desktop {
+    display: inline-flex;
+  }
+}
+
+.hamburger {
+  display: flex;
+  @include desktop { display: none; }
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: $space-2;
+
+  span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: $color-text;
+    border-radius: $radius-full;
+    transition: all $transition-base;
+  }
+}
+
+.hamburgerOpen {
+  span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+  span:nth-child(2) { opacity: 0; }
+  span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+}
+
+.mobileMenu {
+  display: flex;
+  @include desktop { display: none; }
+  flex-direction: column;
+  position: fixed;
+  top: $navbar-height;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  @include glass;
+  background: rgba($color-bg, 0.97);
+  padding: $space-8 $gutter;
+  gap: $space-6;
+  z-index: 99;
+
+  a, button {
+    font-family: $font-sans;
+    font-size: $fs-lg;
+    font-weight: 700;
+    color: $color-text;
+    padding: $space-3 0;
+    border-bottom: 1px solid $color-border;
+    text-align: left;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    transition: color $transition-base;
+    &:hover {
+      color: $color-gold;
+    }
+  }
+}
+
+.mobileCta {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+}
+

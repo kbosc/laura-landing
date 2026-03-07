@@ -1,0 +1,17 @@
+@use '../styles/variables' as *;
+@use '../styles/mixins' as *;
+
+.section {
+  @include section-padding;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  @include container;
+}
+
+.altBg {
+  background-color: $color-bg-alt;
+}
+

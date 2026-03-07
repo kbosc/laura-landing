@@ -1,0 +1,65 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.grid {
+  display: grid;
+  gap: $space-12;
+  align-items: center;
+
+  @include desktop {
+    grid-template-columns: 1fr 1.2fr;
+  }
+}
+
+.imageCol {
+  @include flex-center;
+}
+
+.portrait {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba($color-gold, 0.3);
+  box-shadow: 0 12px 40px rgba($color-gold, 0.15);
+
+  @include desktop {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+.portraitPlaceholder {
+  @extend .portrait;
+  @include flex-center;
+  background: linear-gradient(135deg, $color-yellow-light, $color-energy-light);
+  font-family: $font-accent;
+  font-size: $fs-4xl;
+  color: $color-gold;
+}
+
+.textCol {
+  p {
+    @include body-text;
+    color: $color-text-secondary;
+    margin-bottom: $space-6;
+    font-size: $fs-md;
+    line-height: 1.85;
+  }
+
+  p:last-of-type {
+    margin-bottom: $space-8;
+  }
+}
+
+.signature {
+  font-family: $font-accent;
+  font-size: $fs-xl;
+  color: $color-gold;
+  margin-bottom: $space-8 !important;
+}
+
+.cta {
+  margin-top: $space-4;
+}
+

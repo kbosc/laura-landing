@@ -1,0 +1,112 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  @include flex-center;
+  overflow: hidden;
+  background: linear-gradient(135deg, #FFF8E7 0%, #FFE8EC 40%, #F0E4F7 70%, #E0EEF8 100%);
+}
+
+.bgImage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+  }
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  @include container;
+  padding-top: $navbar-height + $space-12;
+  padding-bottom: $space-12;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 0 auto $space-8;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 24px rgba($color-gold, 0.25));
+
+  @include desktop {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.title {
+  font-family: $font-serif;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 700;
+  color: $color-text;
+  margin-bottom: $space-2;
+  line-height: 1.15;
+
+  span {
+    color: #5bb8e8;
+  }
+}
+
+.subtitle {
+  font-family: $font-accent;
+  font-size: clamp($fs-xl, 3vw, $fs-3xl);
+  color: $color-gold;
+  margin-bottom: $space-6;
+}
+
+.description {
+  @include body-text;
+  max-width: 640px;
+  margin: 0 auto $space-10;
+  color: $color-text-secondary;
+  font-size: $fs-md;
+  line-height: 1.8;
+}
+
+.ctas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-4;
+
+  @include tablet-up {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.scrollIndicator {
+  position: absolute;
+  bottom: $space-8;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-2;
+  color: $color-text-light;
+  font-size: $fs-xs;
+  cursor: pointer;
+
+  .chevron {
+    width: 24px;
+    height: 24px;
+    animation: bounce 2s ease infinite;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
