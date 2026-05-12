@@ -87,3 +87,32 @@
   color: $color-text-light;
 }
 
+.googleCta {
+  text-align: center;
+  margin-top: $space-10;
+}
+
+.googleLink {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  font-size: $fs-sm;
+  font-weight: 600;
+  color: $color-text-secondary;
+  text-decoration: none;
+  border: 1px solid $color-border;
+  border-radius: $radius-full;
+  padding: $space-3 $space-6;
+  transition: all $transition-base;
+
+  &:hover {
+    color: $color-text;
+    border-color: $color-text-secondary;
+    background: $color-bg-alt;
+  }
+
+  svg {
+    flex-shrink: 0;
+  }
+}
+

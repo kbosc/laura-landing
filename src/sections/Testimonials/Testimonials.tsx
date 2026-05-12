@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Star } from 'lucide-react';
+import { Star, ExternalLink } from 'lucide-react';
 import SectionWrapper from '@/layouts/SectionWrapper';
 import SectionTitle from '@/components/ui/SectionTitle/SectionTitle';
 import { testimonials } from '@/data/testimonials';
@@ -38,12 +38,25 @@ export default function Testimonials() {
               </div>
               <div>
                 <div className={styles.authorName}>{t.name}</div>
-                <div className={styles.authorAge}>{t.age} ans</div>
+                {t.age ? <div className={styles.authorAge}>{t.age} ans</div> : null}
+                {t.source ? <div className={styles.authorAge}>via {t.source}</div> : null}
               </div>
             </div>
           </motion.div>
         ))}
       </motion.div>
+
+      <div className={styles.googleCta}>
+        <a
+          href="https://www.google.com/search?q=avis+laura+litaudon+mont%C3%A9vrain&tbm=lcl#lkt=LocalPoiReviews"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.googleLink}
+        >
+          <ExternalLink size={16} />
+          Voir tous les avis sur Google
+        </a>
+      </div>
     </SectionWrapper>
   );
 }

@@ -33,9 +33,10 @@ export interface PricingCategory {
 
 export interface Testimonial {
   name: string;
-  age: number;
+  age?: number;
   text: string;
   rating: number;
+  source?: string;
 }
 
 export interface FAQItem {
