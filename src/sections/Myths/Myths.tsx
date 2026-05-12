@@ -36,8 +36,8 @@ export default function Myths() {
   return (
     <SectionWrapper id="myths" altBg>
       <SectionTitle
-        title="Démêlons le vrai du faux"
-        subtitle="Ces croyances qui sabotent votre alimentation"
+        title="Vrai/faux sur vos croyances"
+        subtitle="Ces idées reçues qui nous freinent"
       />
 
       <motion.div

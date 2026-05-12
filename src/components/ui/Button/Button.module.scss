@@ -36,11 +36,11 @@
 }
 
 .energy {
-  background-color: $color-energy;
+  background-color: $color-lavender;
   color: $color-white;
   &:hover {
-    background-color: color.adjust($color-energy, $lightness: -8%);
-    box-shadow: 0 6px 20px rgba($color-energy, 0.35);
+    background-color: color.adjust($color-lavender, $lightness: -8%);
+    box-shadow: 0 6px 20px rgba($color-lavender, 0.35);
   }
 }
 

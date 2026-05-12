@@ -39,7 +39,7 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 |---|-------|--------|--------|
 | 4.1 | Titre : "Votre diététicienne, votre énergéticienne" → "Votre Diététicienne-Énergéticienne" | `Storytelling.tsx` | ✅ |
 | 4.2 | Remplacer le texte bio complet | Texte fourni par Laura (diété depuis 10 ans, énergéticienne depuis avril 2025, approche combinée…) | ✅ |
-| 4.3 | Rendre le jaune de fond plus vif + accentuer les couleurs en descendant | `Storytelling.module.scss` + `_variables.scss` | ⬜ |
+| 4.3 | Rendre le jaune de fond plus vif + accentuer les couleurs en descendant | `Storytelling.module.scss` + `_variables.scss` | ✅ |
 
 ---
 
@@ -47,9 +47,9 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
-| 5.1 | Couleur de fond : passer à un vert pastel éclatant en fin de défilé (ou orange si vert ne convient pas) | `.scss` | ⬜ |
-| 5.2 | Ajouter sous-titre "Une alimentation complète et flexible" sous le mot "Diététique" | `Prestations.tsx` | ⬜ |
-| 5.3 | Remplacer le texte d'intro "oubliez les régimes…" | Nouveau texte : "Mon objectif est que vous ressortiez de nos consultations avec une relation saine avec votre alimentation…" | ⬜ |
+| 5.1 | Couleur de fond : vert éclatant `#5BA85A` sur cartes + fond diété | `_variables.scss` | ✅ |
+| 5.2 | Ajouter sous-titre "Une alimentation complète et flexible" sous le mot "Diététique" | `Prestations.tsx` | ✅ |
+| 5.3 | Remplacer le texte d'intro "oubliez les régimes…" | Nouveau texte : "Mon objectif est que vous ressortiez de nos consultations avec une relation saine avec votre alimentation…" | ✅ |
 | 5.4 | Carte 1 : "Rééquilibrage alimentaire & perte de poids durable" → "Rééquilibrage alimentaire / Perte de poids" + nouveau texte | `services.ts` | ✅ |
 | 5.5 | Carte 2 : "Alimentation grossesse et allaitement" → "Femmes enceintes et femmes allaitantes" + nouveau texte | `services.ts` | ✅ |
 | 5.6 | Carte 3 : "Troubles du comportement alimentaire" — titre OK, nouveau texte | `services.ts` | ✅ |
@@ -63,9 +63,9 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
-| 6.1 | Couleur de fond : passer au violet clair | `.scss` | ⬜ |
-| 6.2 | Titre de section : "Soin énergétiques" → "Énergétique" | `Prestations.tsx` | ⬜ |
-| 6.3 | Ajouter texte de présentation de l'énergétique | "L'énergétique, que ça soit à l'aide de soins énergétiques, de guidances ou la cartomancie…" | ⬜ |
+| 6.1 | Couleur de fond : violet clair `#9B7EC8` sur cartes énergie | `_variables.scss` + `.scss` | ✅ |
+| 6.2 | Titre de section : "Soins Énergétiques" → "Énergétique" | `Prestations.tsx` | ✅ |
+| 6.3 | Ajouter texte de présentation de l'énergétique | "L'énergétique, que ça soit à l'aide de soins énergétiques, de guidances ou la cartomancie…" | ✅ |
 | 6.4 | Carte 1 : "Soin Reiki" → "Le Reiki" + nouveau texte + mention "Uniquement en présentiel" | `services.ts` | ✅ |
 | 6.5 | Carte 2 : remplacer "Soin Lahochi" → "Guidance spirituelle" + nouveau texte | `services.ts` | ✅ |
 | 6.6 | Carte 3 : remplacer "Soin Isis" → "Les soins énergétiques" + liste (Métatron, Ganesh, Scarabée d'Or, Triangle d'Or d'Isis, Lahochi) | `services.ts` | ✅ |
@@ -78,7 +78,7 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
-| 7.1 | Titre : "Ateliers collectifs" → "Les ateliers" | `Workshops.tsx` | ⬜ |
+| 7.1 | Titre : "Ateliers collectifs" → "Les ateliers" | `Workshops.tsx` | ✅ |
 | 7.2 | Remplacer les 5 ateliers actuels par les 8 nouveaux | `workshops.ts` | ✅ |
 
 Nouveaux ateliers :
@@ -97,7 +97,7 @@ Nouveaux ateliers :
 
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
-| 8.1 | Titre : "Démêlons le vrai du faux" → "Vrai/faux sur vos croyances" | `Myths.tsx` | ⬜ |
+| 8.1 | Titre : "Démêlons le vrai du faux" → "Vrai/faux sur vos croyances" | `Myths.tsx` | ✅ |
 | 8.2 | Mythe 1 : "Le pain fait grossir" — nouveau texte de réponse | `myths.ts` | ✅ |
 | 8.3 | Mythe 2 : "Il faut supprimer le gras pour maigrir" — nouveau texte | `myths.ts` | ✅ |
 | 8.4 | Mythe 3 (nouveau) : "Un soin énergétique ne peut pas se faire à distance" — FAUX | `myths.ts` | ✅ |

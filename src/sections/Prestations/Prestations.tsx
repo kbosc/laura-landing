@@ -15,16 +15,18 @@ type Tab = 'diet' | 'energy';
 const tabConfig = {
   diet: {
     label: 'Diététique',
-    color: '#8FAE7E',
-    intro: 'Oubliez les régimes restrictifs et les interdits. Mon approche de la diététique est flexible, bienveillante et adaptée à votre réalité : votre rythme de vie, vos goûts, votre budget, votre culture. J\'accompagne tous les publics, du nourrisson au senior, dans une démarche de plaisir retrouvé autour de l\'alimentation.',
+    color: '#6EA86A',
+    intro: 'Mon objectif est que vous ressortiez de nos consultations avec une relation saine avec votre alimentation afin que vous puissiez faire des choix conscients et autonomes sur ce que vous allez manger au quotidien. L\'alimentation doit rester une source d\'apports énergétiques et de plaisir. L\'idée c\'est de prendre soin de sa santé tout en restant dans une alimentation adaptée à votre rythme de vie et à vos particularités qui vous sont propres.',
+    subtitle: 'Une alimentation complète et flexible',
     services: dietServices,
     ctaLabel: 'Réserver une consultation Diététique',
     ctaUrl: DOCTOLIB_URL,
   },
   energy: {
     label: 'Énergétique',
-    color: '#D4A0A7',
-    intro: 'Les soins énergétiques agissent sur vos corps subtils pour libérer les blocages émotionnels, soulager le stress et restaurer la circulation de votre énergie vitale. Chaque soin est un moment de profonde détente et de reconnexion à soi.',
+    color: '#9B7EC8',
+    intro: 'L\'énergétique, que ça soit à l\'aide de soins énergétiques, de guidances ou la cartomancie, vous permettra d\'aller plus en profondeur pour mieux vous comprendre et comprendre votre fonctionnement. Cela vous apportera également de la douceur, de la relaxation et du bien-être.',
+    subtitle: 'Reconnectez-vous à votre harmonie intérieure',
     services: energyServices,
     ctaLabel: 'Réserver un soin Énergétique',
     ctaUrl: CRENOLIBRE_URL,
@@ -54,8 +56,8 @@ export default function Prestations() {
   return (
     <SectionWrapper id="prestations" altBg>
       <SectionTitle
-        title={activeTab === 'diet' ? 'Diététique' : 'Soins Énergétiques'}
-        subtitle={activeTab === 'diet' ? 'Une alimentation qui vous ressemble' : 'Reconnectez-vous à votre harmonie intérieure'}
+        title={activeTab === 'diet' ? 'Diététique' : 'Énergétique'}
+        subtitle={config.subtitle}
       />
 
       <div className={styles.tabs} style={{ position: 'relative' }}>

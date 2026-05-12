@@ -12,14 +12,15 @@ export default function Workshops() {
   return (
     <SectionWrapper id="ateliers">
       <SectionTitle
-        title="Ateliers collectifs"
+        title="Les ateliers"
         subtitle="Apprenez, partagez, grandissez ensemble"
       />
 
       <p className={styles.intro}>
-        Régulièrement, je propose des ateliers en petit groupe pour explorer
-        ensemble des thématiques autour de l'alimentation et du bien-être.
-        Un moment convivial d'apprentissage et de partage dans un cadre bienveillant.
+        Tous les lundis à Montévrain, je propose des ateliers en petit groupe
+        pour explorer ensemble des thématiques autour de l'alimentation, du bien-être
+        et de l'énergétique. Un moment convivial d'apprentissage et de partage
+        dans un cadre bienveillant.
       </p>
 
       <motion.div
