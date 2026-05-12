@@ -3,61 +3,55 @@ import type { Service } from '@/types';
 export const dietServices: Service[] = [
   {
     icon: 'Apple',
-    title: 'Rééquilibrage alimentaire & perte de poids durable',
-    description: 'Un accompagnement personnalisé pour retrouver un poids de forme sans frustration ni restriction, en respectant vos goûts et votre rythme de vie.',
+    title: 'Rééquilibrage alimentaire / Perte de poids',
+    description: 'Un accompagnement personnalisé pour vous réapprendre ou vous apprendre ce dont vous avez vraiment besoin pour tenter de perdre du poids.',
   },
   {
     icon: 'Baby',
-    title: 'Alimentation grossesse et allaitement',
-    description: 'Des conseils nutritionnels adaptés à chaque trimestre de grossesse et pendant l\'allaitement, pour le bien-être de la maman et du bébé.',
+    title: 'Femmes enceintes et femmes allaitantes',
+    description: 'Ajustement de votre alimentation pour vous permettre de répondre aux besoins liés à la grossesse ou à l\'allaitement pour le bien-être de maman et bébé.',
   },
   {
     icon: 'Heart',
-    title: 'Troubles du Comportement Alimentaire (TCA)',
-    description: 'Un accompagnement bienveillant et sans jugement pour les personnes souffrant d\'anorexie, boulimie ou hyperphagie.',
+    title: 'Troubles du comportement alimentaire',
+    description: 'Un accompagnement à votre rythme pour vous aider à mieux vivre au quotidien et à défaire méticuleusement un par un les blocages liés aux troubles du comportement alimentaire.',
   },
   {
     icon: 'Milk',
-    title: 'Diversification alimentaire du nourrisson',
-    description: 'Accompagnement des parents dans l\'introduction des aliments, en respectant le rythme et les besoins de chaque enfant.',
+    title: 'Alimentation de l\'enfant de 0 à 18 ans',
+    description: 'Prise en charge de vos enfants pour des demandes concernant la diversification de vos bébés, les troubles de l\'oralité, l\'éducation nutritionnelle ou encore la gestion du poids et de l\'image corporelle.',
   },
   {
     icon: 'Users',
-    title: 'Nutrition des seniors et dénutrition',
-    description: 'Prévention et prise en charge de la dénutrition chez les personnes âgées, avec des repas adaptés et savoureux.',
+    title: 'L\'alimentation des seniors',
+    description: 'Prise en charge des personnes âgées avec dépistage systématique de la dénutrition.',
   },
   {
-    icon: 'Dumbbell',
-    title: 'Alimentation du sportif',
-    description: 'Optimisation de la performance et de la récupération grâce à une alimentation adaptée à votre activité sportive.',
+    icon: 'Activity',
+    title: 'Alimentation avec une maladie métabolique',
+    description: 'Réévaluer votre alimentation afin de mettre toutes les clés entre vos mains pour maintenir un bon état de santé et éviter l\'apparition de complications.',
   },
 ];
 
 export const energyServices: Service[] = [
   {
     icon: 'HandHeart',
-    title: 'Soin Reiki',
-    description: 'Harmonisation énergétique par imposition des mains. Le Reiki libère les tensions physiques et émotionnelles, favorise l\'auto-guérison et restaure la circulation de l\'énergie vitale. Vous restez habillé(e), allongé(e) confortablement. La plupart des personnes ressentent une profonde détente, parfois des picotements ou de la chaleur.',
-  },
-  {
-    icon: 'Hand',
-    title: 'Soin Lahochi',
-    description: 'Énergie de guérison à haute fréquence vibratoire, particulièrement puissante pour les périodes de transition et de transformation personnelle. Le Lahochi agit en profondeur sur les plans physique, émotionnel et spirituel.',
-  },
-  {
-    icon: 'Moon',
-    title: 'Soin Isis',
-    description: 'Soin d\'essence féminine sacrée, le soin Isis permet une reconnexion profonde à son pouvoir intérieur, sa féminité et son intuition. Il libère les mémoires cellulaires et les blocages liés au féminin sacré.',
+    title: 'Le Reiki',
+    description: 'Accordez-vous un moment de douceur et de détente dans un espace sacré rien que pour vous. Si vous cherchez un soin qui peut vous aider à diminuer votre anxiété, diminuer l\'impact qu\'ont vos émotions sur votre vie ou encore diminuer certaines douleurs, ce soin est fait pour vous. Uniquement en présentiel.',
   },
   {
     icon: 'Sparkles',
-    title: 'Guidance numérologie & chakras',
-    description: 'Lecture de votre chemin de vie à travers la numérologie et analyse de l\'état de vos centres énergétiques (chakras). Cette guidance vous aide à mieux vous comprendre, identifier vos forces et vos axes de travail pour avancer en conscience.',
+    title: 'Guidance spirituelle',
+    description: 'Séance en présentiel ou à distance, pendant laquelle nous nous penchons sur votre état énergétique, émotionnel et personnel. Je vous propose de faire un point sur votre état actuel pour ensuite vous donner des clés afin d\'évoluer dans votre vie. Pour cela je me sers de mon pendule, d\'oracles et de la numérologie.',
   },
   {
     icon: 'Flame',
-    title: 'Cartomancie (3 questions)',
-    description: 'Tirage intuitif de cartes pour éclairer vos questionnements du moment. Trois questions, trois réponses de l\'univers. La cartomancie est un outil de guidance, pas de prédiction : elle vous aide à voir clair et à prendre des décisions alignées.',
+    title: 'Les soins énergétiques',
+    description: 'Séance en présentiel ou à distance. Je vous propose différents types de soin, chacun ayant des bénéfices différents. Soins proposés : Métatron, Ganesh, Scarabée d\'Or, Triangle d\'Or d\'Isis, Lahochi.',
+  },
+  {
+    icon: 'Moon',
+    title: 'La Cartomancie',
+    description: 'Je vous propose plusieurs forfaits : 1 question, 3 questions ou un tirage complet (vie sentimentale, vie professionnelle, évolution personnelle et blocages, +2 questions personnelles). Séance en présentiel ou à distance.',
   },
 ];
-

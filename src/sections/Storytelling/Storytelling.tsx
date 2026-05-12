@@ -4,13 +4,14 @@ import { scrollTo } from '@/utils/scrollTo';
 import SectionWrapper from '@/layouts/SectionWrapper';
 import SectionTitle from '@/components/ui/SectionTitle/SectionTitle';
 import Button from '@/components/ui/Button/Button';
+import lauraProfil from '@/assets/laura-profil.jpg';
 import styles from './Storytelling.module.scss';
 
 export default function Storytelling() {
   return (
     <SectionWrapper id="storytelling">
       <SectionTitle
-        title="Votre diététicienne, votre énergéticienne"
+        title="Votre Diététicienne-Énergéticienne"
         subtitle="10 ans à prendre soin de vous"
       />
 
@@ -22,7 +23,13 @@ export default function Storytelling() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <div className={styles.portraitPlaceholder}>LL</div>
+          <img
+            src={lauraProfil}
+            alt="Laura Litaudon, diététicienne-énergéticienne"
+            className={styles.portrait}
+            width={340}
+            height={340}
+          />
         </motion.div>
 
         <motion.div
@@ -33,26 +40,35 @@ export default function Storytelling() {
           viewport={{ once: true }}
         >
           <p>
-            Pendant dix ans, j'ai exercé comme diététicienne salariée dans des
-            structures de santé. J'y ai appris la rigueur du soin, l'écoute du
-            patient, et surtout que chaque personne est unique dans son rapport
-            à l'alimentation.
+            Diététicienne depuis bientôt 10 ans, c'est forte de mon expérience
+            que je mets aujourd'hui mes compétences à votre service.
           </p>
           <p>
-            Mais quelque chose manquait. J'ai découvert les soins énergétiques —
-            Reiki, Lahochi, soins Isis — et j'ai compris que le bien-être ne se
-            résume pas à ce que l'on met dans son assiette. C'est aussi ce que
-            l'on porte en soi : nos émotions, nos blocages, notre énergie vitale.
+            La pluralité et la diversité de mes expériences me permettent
+            aujourd'hui de prendre en charge les patients allant du bébé à la
+            personne âgée.
           </p>
           <p>
-            En 2024, j'ai fait le choix de l'indépendance pour créer un espace
-            où ces deux mondes se rencontrent. EnAIRgie & Diététique est né de
-            cette conviction : prendre soin de soi, c'est nourrir son corps ET
-            libérer son énergie.
+            Énergéticienne depuis avril 2025, je fais le choix de proposer des
+            soins énergétiques et des guidances afin de vous aider à retrouver
+            un équilibre intérieur et de l'apaisement.
           </p>
-          <p className={styles.signature}>
-            Ici, pas de régime punitif ni de dogme. Juste une approche humaine,
-            bienveillante et personnalisée.
+          <p>
+            L'énergétique me permet aujourd'hui d'approfondir la cause de certains
+            symptômes que vous m'indiquerez en consultations diététiques. La
+            partie énergétique permet de mettre en lumière des éléments que nous
+            ne voyons parfois pas au premier abord.
+          </p>
+          <p>
+            Il est demandé ici de revenir à soi et laisser place à davantage de
+            silence pour entendre les messages que notre corps cherche à nous
+            faire passer de diverses manières.
+          </p>
+          <p>
+            L'idée est également de pouvoir déconstruire les croyances limitantes
+            qui peuvent nous impacter et nous freiner. En diététique et en
+            énergétique, nous pourrons travailler conjointement pour démêler le
+            vrai du faux et vous permettre de retrouver assurance et autonomie.
           </p>
 
           <motion.div className={styles.cta} variants={fadeInUp}>

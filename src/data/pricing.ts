@@ -4,23 +4,56 @@ export const pricingData: PricingCategory[] = [
   {
     universe: 'diet',
     title: 'Diététique',
-    items: [
-      { title: 'Bilan diététique initial', duration: '1h', price: '60 €' },
-      { title: 'Consultation de suivi', duration: '30 min', price: '40 €' },
-      { title: 'Pack 5 consultations de suivi', duration: '—', price: '180 €', highlight: true },
-      { title: 'Consultation enfant / ado', duration: '45 min', price: '50 €' },
+    sections: [
+      {
+        subtitle: 'Tarifs individuels',
+        note: '* Enfants de 0 à 18 ans · Seniors à partir de 65 ans\nDéplacements à domicile pour les seniors : 5 € (0–5 km) · 10 € (5–10 km) · 15 € (10–20 km) · puis 6 € / 10 km',
+        items: [
+          { title: '1ère consultation adultes', price: '65 €' },
+          { title: 'Consultation de suivi adultes', price: '50 €' },
+          { title: '1ère consultation enfants *', price: '60 €' },
+          { title: 'Consultation de suivi enfants *', price: '40 €' },
+          { title: '1ère consultation seniors *', price: '50 €' },
+          { title: 'Consultation de suivi seniors *', price: '40 €' },
+        ],
+      },
+      {
+        subtitle: 'Tarifs promotionnels',
+        items: [
+          { title: '1ère consultation duo parents / enfants', price: '95 €', highlight: true },
+          { title: 'Suivi duo parents / enfants', price: '70 €', highlight: true },
+          { title: '1ère consultation + 2 suivis adultes', price: '135 €', highlight: true },
+          { title: '3 consultations de suivi adultes', price: '120 €', highlight: true },
+          { title: '1ère consultation + 2 suivis enfants', price: '110 €', highlight: true },
+          { title: '3 suivis enfants', price: '100 €', highlight: true },
+          { title: '1ère consultation + 2 suivis seniors', price: '110 €', highlight: true },
+          { title: '3 suivis seniors', price: '100 €', highlight: true },
+        ],
+      },
     ],
   },
   {
     universe: 'energy',
     title: 'Énergétique',
-    items: [
-      { title: 'Soin Reiki', duration: '1h', price: '60 €' },
-      { title: 'Soin Lahochi', duration: '1h', price: '60 €' },
-      { title: 'Soin Isis', duration: '1h15', price: '70 €' },
-      { title: 'Guidance numérologie & chakras', duration: '45 min', price: '55 €' },
-      { title: 'Cartomancie (3 questions)', duration: '30 min', price: '35 €' },
+    sections: [
+      {
+        subtitle: 'Soins & guidances',
+        items: [
+          { title: 'Reiki (présentiel uniquement)', price: '65 €' },
+          { title: 'Soins énergétiques (Métatron, Ganesh, Scarabée d\'Or, Triangle d\'Or d\'Isis, Lahochi)', price: '75 €' },
+          { title: 'Première guidance', price: '95 €' },
+          { title: 'Guidances suivantes', price: '85 €' },
+        ],
+      },
+      {
+        subtitle: 'Cartomancie',
+        items: [
+          { title: '1 question', price: '10 €' },
+          { title: '3 questions', price: '30 €' },
+          { title: 'Pack vie sentimentale', price: '45 €', highlight: true },
+          { title: 'Pack vie professionnelle', price: '45 €', highlight: true },
+        ],
+      },
     ],
   },
 ];
-

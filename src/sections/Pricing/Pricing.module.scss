@@ -38,8 +38,32 @@
   background: linear-gradient(135deg, $color-energy, color.adjust($color-energy, $lightness: -10%));
 }
 
+.section {
+  & + & {
+    border-top: 2px solid $color-border;
+  }
+}
+
+.sectionTitle {
+  font-family: $font-sans;
+  font-size: $fs-sm;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $color-text-secondary;
+  padding: $space-4 $space-6 $space-2;
+}
+
+.sectionNote {
+  padding: $space-2 $space-6 $space-4;
+  font-size: $fs-xs;
+  color: $color-text-light;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
 .items {
-  padding: $space-4 $space-6;
+  padding: $space-2 $space-6 $space-4;
 }
 
 .item {
@@ -66,16 +90,16 @@
 .itemInfo {
   flex: 1;
 
-  h4 {
+  span {
+    display: block;
     font-family: $font-sans;
-    font-weight: 700;
-    font-size: $fs-base;
+    font-size: $fs-sm;
     color: $color-text;
-    margin-bottom: 2px;
+    line-height: 1.4;
   }
 
-  span {
-    font-size: $fs-sm;
+  small {
+    font-size: $fs-xs;
     color: $color-text-secondary;
   }
 }

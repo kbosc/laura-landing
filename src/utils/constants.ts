@@ -1,5 +1,5 @@
-export const DOCTOLIB_URL = 'https://www.doctolib.fr';
-export const CRENOLIBRE_URL = 'https://www.crenolibre.fr';
+export const DOCTOLIB_URL = 'https://www.doctolib.fr/dieteticien/montevrain/laura-litaudon';
+export const CRENOLIBRE_URL = 'https://www.crenolibre.fr/prendre-rdv/159341_enairgie-et-dietetique';
 export const INSTAGRAM_URL = 'https://www.instagram.com';
 export const FACEBOOK_URL = 'https://www.facebook.com';
 export const EMAIL = 'contact@enairgie-dietetique.fr';

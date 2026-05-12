@@ -14,15 +14,21 @@ export interface Service {
 
 export interface PricingItem {
   title: string;
-  duration: string;
+  duration?: string;
   price: string;
   highlight?: boolean;
+}
+
+export interface PricingSection {
+  subtitle?: string;
+  note?: string;
+  items: PricingItem[];
 }
 
 export interface PricingCategory {
   universe: Universe;
   title: string;
-  items: PricingItem[];
+  sections: PricingSection[];
 }
 
 export interface Testimonial {

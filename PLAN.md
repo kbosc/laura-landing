@@ -10,8 +10,8 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 
 | # | Tâche | Fichier(s) | Statut |
 |---|-------|------------|--------|
-| 1.1 | Remplacer le fond Hero par `banner-bis.jpg` | `Hero.tsx` + `Hero.module.scss` | ⬜ |
-| 1.2 | Intégrer la photo profil `laura-profil.jpg` dans la section Storytelling (remplacer le placeholder "LL") | `Storytelling.tsx` + `.scss` | ⬜ |
+| 1.1 | Remplacer le fond Hero par `banner-bis.jpg` | `Hero.tsx` + `Hero.module.scss` | ✅ |
+| 1.2 | Intégrer la photo profil `laura-profil.jpg` dans la section Storytelling (remplacer le placeholder "LL") | `Storytelling.tsx` + `.scss` | ✅ |
 
 ---
 
@@ -19,8 +19,8 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 
 | # | Tâche | Fichier(s) | Statut |
 |---|-------|------------|--------|
-| 2.1 | Mettre à jour `DOCTOLIB_URL` → `https://www.doctolib.fr/dieteticien/montevrain/laura-litaudon` | `constants.ts` | ⬜ |
-| 2.2 | Mettre à jour `CRENOLIBRE_URL` → `https://www.crenolibre.fr/prendre-rdv/159341_enairgie-et-dietetique` | `constants.ts` | ⬜ |
+| 2.1 | Mettre à jour `DOCTOLIB_URL` → `https://www.doctolib.fr/dieteticien/montevrain/laura-litaudon` | `constants.ts` | ✅ |
+| 2.2 | Mettre à jour `CRENOLIBRE_URL` → `https://www.crenolibre.fr/prendre-rdv/159341_enairgie-et-dietetique` | `constants.ts` | ✅ |
 
 ---
 
@@ -28,8 +28,8 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
-| 3.1 | Remplacer les taglines | "La santé de la matière première à l'invisible." + "Respirer, se nourrir, rayonner." | ⬜ |
-| 3.2 | Remplacer le texte de description | "Tous les lundis à Montévrain, je vous propose…" (version courte si trop long) | ⬜ |
+| 3.1 | Remplacer les taglines | "La santé de la matière première à l'invisible." + "Respirer, se nourrir, rayonner." | ✅ |
+| 3.2 | Remplacer le texte de description | "Tous les lundis à Montévrain, je vous propose…" (version courte si trop long) | ✅ |
 
 ---
 
@@ -37,8 +37,8 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
-| 4.1 | Titre : "Votre diététicienne, votre énergéticienne" → "Votre Diététicienne-Énergéticienne" | `Storytelling.tsx` | ⬜ |
-| 4.2 | Remplacer le texte bio complet | Texte fourni par Laura (diété depuis 10 ans, énergéticienne depuis avril 2025, approche combinée…) | ⬜ |
+| 4.1 | Titre : "Votre diététicienne, votre énergéticienne" → "Votre Diététicienne-Énergéticienne" | `Storytelling.tsx` | ✅ |
+| 4.2 | Remplacer le texte bio complet | Texte fourni par Laura (diété depuis 10 ans, énergéticienne depuis avril 2025, approche combinée…) | ✅ |
 | 4.3 | Rendre le jaune de fond plus vif + accentuer les couleurs en descendant | `Storytelling.module.scss` + `_variables.scss` | ⬜ |
 
 ---
@@ -50,12 +50,12 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 | 5.1 | Couleur de fond : passer à un vert pastel éclatant en fin de défilé (ou orange si vert ne convient pas) | `.scss` | ⬜ |
 | 5.2 | Ajouter sous-titre "Une alimentation complète et flexible" sous le mot "Diététique" | `Prestations.tsx` | ⬜ |
 | 5.3 | Remplacer le texte d'intro "oubliez les régimes…" | Nouveau texte : "Mon objectif est que vous ressortiez de nos consultations avec une relation saine avec votre alimentation…" | ⬜ |
-| 5.4 | Carte 1 : "Rééquilibrage alimentaire & perte de poids durable" → "Rééquilibrage alimentaire / Perte de poids" + nouveau texte | `services.ts` | ⬜ |
-| 5.5 | Carte 2 : "Alimentation grossesse et allaitement" → "Femmes enceintes et femmes allaitantes" + nouveau texte | `services.ts` | ⬜ |
-| 5.6 | Carte 3 : "Troubles du comportement alimentaire" — titre OK, nouveau texte | `services.ts` | ⬜ |
-| 5.7 | Carte 4 : "Diversification alimentaire du nourrisson" → "Alimentation de l'enfant de 0 à 18 ans" + nouveau texte | `services.ts` | ⬜ |
-| 5.8 | Carte 5 : "Nutrition des seniors et dénutrition" → "L'alimentation des seniors" + nouveau texte | `services.ts` | ⬜ |
-| 5.9 | Carte 6 : "Alimentation du sportif" → "Alimentation avec une maladie métabolique" + nouveau texte | `services.ts` | ⬜ |
+| 5.4 | Carte 1 : "Rééquilibrage alimentaire & perte de poids durable" → "Rééquilibrage alimentaire / Perte de poids" + nouveau texte | `services.ts` | ✅ |
+| 5.5 | Carte 2 : "Alimentation grossesse et allaitement" → "Femmes enceintes et femmes allaitantes" + nouveau texte | `services.ts` | ✅ |
+| 5.6 | Carte 3 : "Troubles du comportement alimentaire" — titre OK, nouveau texte | `services.ts` | ✅ |
+| 5.7 | Carte 4 : "Diversification alimentaire du nourrisson" → "Alimentation de l'enfant de 0 à 18 ans" + nouveau texte | `services.ts` | ✅ |
+| 5.8 | Carte 5 : "Nutrition des seniors et dénutrition" → "L'alimentation des seniors" + nouveau texte | `services.ts` | ✅ |
+| 5.9 | Carte 6 : "Alimentation du sportif" → "Alimentation avec une maladie métabolique" + nouveau texte | `services.ts` | ✅ |
 
 ---
 
@@ -66,11 +66,11 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 | 6.1 | Couleur de fond : passer au violet clair | `.scss` | ⬜ |
 | 6.2 | Titre de section : "Soin énergétiques" → "Énergétique" | `Prestations.tsx` | ⬜ |
 | 6.3 | Ajouter texte de présentation de l'énergétique | "L'énergétique, que ça soit à l'aide de soins énergétiques, de guidances ou la cartomancie…" | ⬜ |
-| 6.4 | Carte 1 : "Soin Reiki" → "Le Reiki" + nouveau texte + mention "Uniquement en présentiel" | `services.ts` | ⬜ |
-| 6.5 | Carte 2 : remplacer "Soin Lahochi" → "Guidance spirituelle" + nouveau texte | `services.ts` | ⬜ |
-| 6.6 | Carte 3 : remplacer "Soin Isis" → "Les soins énergétiques" + liste (Métatron, Ganesh, Scarabée d'Or, Triangle d'Or d'Isis, Lahochi) | `services.ts` | ⬜ |
-| 6.7 | Carte 4 : remplacer "Guidance numérologie & chakras" → "La Cartomancie" + nouveau texte | `services.ts` | ⬜ |
-| 6.8 | Supprimer la carte "Cartomancie (3 questions)" actuelle (devient redondante) | `services.ts` | ⬜ |
+| 6.4 | Carte 1 : "Soin Reiki" → "Le Reiki" + nouveau texte + mention "Uniquement en présentiel" | `services.ts` | ✅ |
+| 6.5 | Carte 2 : remplacer "Soin Lahochi" → "Guidance spirituelle" + nouveau texte | `services.ts` | ✅ |
+| 6.6 | Carte 3 : remplacer "Soin Isis" → "Les soins énergétiques" + liste (Métatron, Ganesh, Scarabée d'Or, Triangle d'Or d'Isis, Lahochi) | `services.ts` | ✅ |
+| 6.7 | Carte 4 : remplacer "Guidance numérologie & chakras" → "La Cartomancie" + nouveau texte | `services.ts` | ✅ |
+| 6.8 | Supprimer la carte "Cartomancie (3 questions)" actuelle (devient redondante) | `services.ts` | ✅ |
 
 ---
 
@@ -79,7 +79,7 @@ Légende : ⬜ À faire · 🔄 En cours · ✅ Fait
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
 | 7.1 | Titre : "Ateliers collectifs" → "Les ateliers" | `Workshops.tsx` | ⬜ |
-| 7.2 | Remplacer les 5 ateliers actuels par les 8 nouveaux | `workshops.ts` | ⬜ |
+| 7.2 | Remplacer les 5 ateliers actuels par les 8 nouveaux | `workshops.ts` | ✅ |
 
 Nouveaux ateliers :
 1. Concevoir ses menus
@@ -98,12 +98,12 @@ Nouveaux ateliers :
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
 | 8.1 | Titre : "Démêlons le vrai du faux" → "Vrai/faux sur vos croyances" | `Myths.tsx` | ⬜ |
-| 8.2 | Mythe 1 : "Le pain fait grossir" — nouveau texte de réponse | `myths.ts` | ⬜ |
-| 8.3 | Mythe 2 : "Il faut supprimer le gras pour maigrir" — nouveau texte | `myths.ts` | ⬜ |
-| 8.4 | Mythe 3 (nouveau) : "Un soin énergétique ne peut pas se faire à distance" — FAUX | `myths.ts` | ⬜ |
-| 8.5 | Mythe 4 : "Les produits allégés sont meilleurs pour la santé" — nouveau texte | `myths.ts` | ⬜ |
-| 8.6 | Mythe 5 (nouveau) : "Je suis diabétique, je dois arrêter le sucre" — FAUX | `myths.ts` | ⬜ |
-| 8.7 | Supprimer les mythes "Manger après 18h" et "régime restrictif" (remplacés) | `myths.ts` | ⬜ |
+| 8.2 | Mythe 1 : "Le pain fait grossir" — nouveau texte de réponse | `myths.ts` | ✅ |
+| 8.3 | Mythe 2 : "Il faut supprimer le gras pour maigrir" — nouveau texte | `myths.ts` | ✅ |
+| 8.4 | Mythe 3 (nouveau) : "Un soin énergétique ne peut pas se faire à distance" — FAUX | `myths.ts` | ✅ |
+| 8.5 | Mythe 4 : "Les produits allégés sont meilleurs pour la santé" — nouveau texte | `myths.ts` | ✅ |
+| 8.6 | Mythe 5 (nouveau) : "Je suis diabétique, je dois arrêter le sucre" — FAUX | `myths.ts` | ✅ |
+| 8.7 | Supprimer les mythes "Manger après 18h" et "régime restrictif" (remplacés) | `myths.ts` | ✅ |
 
 ---
 
@@ -111,11 +111,11 @@ Nouveaux ateliers :
 
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
-| 9.1 | Diététique — tarifs individuels adultes/enfants/seniors | 65€ / 50€ / 60€ / 40€ / 50€ / 40€ | ⬜ |
-| 9.2 | Diététique — frais de déplacement seniors | Grille kilométrique fournie | ⬜ |
-| 9.3 | Diététique — packs promotionnels | 7 packs listés par Laura | ⬜ |
-| 9.4 | Énergétique — tarifs soins | Reiki 65€, Soins 75€, Guidance 95€/85€ | ⬜ |
-| 9.5 | Énergétique — Cartomancie | 1 question 10€, 3 questions 30€, packs 45€ | ⬜ |
+| 9.1 | Diététique — tarifs individuels adultes/enfants/seniors | 65€ / 50€ / 60€ / 40€ / 50€ / 40€ | ✅ |
+| 9.2 | Diététique — frais de déplacement seniors | Grille kilométrique fournie | ✅ |
+| 9.3 | Diététique — packs promotionnels | 7 packs listés par Laura | ✅ |
+| 9.4 | Énergétique — tarifs soins | Reiki 65€, Soins 75€, Guidance 95€/85€ | ✅ |
+| 9.5 | Énergétique — Cartomancie | 1 question 10€, 3 questions 30€, packs 45€ | ✅ |
 
 ---
 
@@ -123,7 +123,7 @@ Nouveaux ateliers :
 
 | # | Tâche | Détail | Statut |
 |---|-------|--------|--------|
-| 10.1 | Remplacer les 6 questions actuelles par les 12 questions de Laura | `faq.ts` | ⬜ |
+| 10.1 | Remplacer les 6 questions actuelles par les 12 questions de Laura | `faq.ts` | ✅ |
 
 Questions : remboursement, déplacement domicile, venir avec bébé, croyance soins énergétiques, différence de prix Reiki/soins, moyens de paiement, garantie perte de poids, soins mieux que d'autres, tarifs enfants/seniors, première consultation diét., soins à distance, Métatron femme enceinte | | |
 

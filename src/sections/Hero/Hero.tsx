@@ -4,7 +4,7 @@ import Button from '@/components/ui/Button/Button';
 import { DOCTOLIB_URL, CRENOLIBRE_URL } from '@/utils/constants';
 import { scrollTo } from '@/utils/scrollTo';
 import logoImg from '@/assets/logo.png';
-import bannerBg from '@/assets/banner-bg.jpg';
+import bannerBg from '@/assets/banner-bis.jpg';
 import styles from './Hero.module.scss';
 
 export default function Hero() {
@@ -30,8 +30,17 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          En<span>AIR</span>gie & Diététique
+          Énairgie & Diététique
         </motion.h1>
+
+        <motion.p
+          className={styles.tagline}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.45 }}
+        >
+          La santé de la matière première à l'invisible.
+        </motion.p>
 
         <motion.p
           className={styles.subtitle}
@@ -39,7 +48,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          Nourrissez votre corps, libérez votre énergie.
+          Respirer, se nourrir, rayonner.
         </motion.p>
 
         <motion.p
@@ -48,10 +57,10 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
         >
-          À Montévrain, Laura Litaudon vous accompagne dans une approche globale
-          de votre bien-être. Que vous cherchiez un rééquilibrage alimentaire
-          bienveillant ou un soin énergétique pour retrouver votre harmonie
-          intérieure, chaque séance est un pas vers un vous plus équilibré.
+          Tous les lundis à Montévrain, je vous propose de retrouver un équilibre,
+          qu'il soit alimentaire, émotionnel, ou encore énergétique.
+          Venez pour un moment de partage, où l'on apprend, on se détend
+          et on ressort avec plus de clarté, de sérénité et de conscience.
         </motion.p>
 
         <motion.div

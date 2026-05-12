@@ -57,6 +57,15 @@
   }
 }
 
+.tagline {
+  font-family: $font-serif;
+  font-size: clamp($fs-md, 2vw, $fs-lg);
+  color: $color-text-secondary;
+  margin-bottom: $space-2;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
 .subtitle {
   font-family: $font-accent;
   font-size: clamp($fs-xl, 3vw, $fs-3xl);

@@ -26,26 +26,36 @@ export default function Pricing() {
             <div className={`${styles.columnHeader} ${cat.universe === 'diet' ? styles.headerDiet : styles.headerEnergy}`}>
               <h3>{cat.title}</h3>
             </div>
-            <div className={styles.items}>
-              {cat.items.map((item) => (
-                <div key={item.title} className={`${styles.item} ${item.highlight ? styles.itemHighlight : ''}`}>
-                  <div className={styles.itemInfo}>
-                    <h4>{item.title}</h4>
-                    <span>{item.duration}</span>
-                  </div>
-                  <div className={styles.itemPrice}>{item.price}</div>
+
+            {cat.sections.map((section, si) => (
+              <div key={si} className={styles.section}>
+                {section.subtitle && (
+                  <h4 className={styles.sectionTitle}>{section.subtitle}</h4>
+                )}
+                <div className={styles.items}>
+                  {section.items.map((item) => (
+                    <div key={item.title} className={`${styles.item} ${item.highlight ? styles.itemHighlight : ''}`}>
+                      <div className={styles.itemInfo}>
+                        <span>{item.title}</span>
+                        {item.duration && <small>{item.duration}</small>}
+                      </div>
+                      <div className={styles.itemPrice}>{item.price}</div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+                {section.note && (
+                  <p className={styles.sectionNote}>{section.note}</p>
+                )}
+              </div>
+            ))}
           </motion.div>
         ))}
       </div>
 
       <div className={styles.note}>
         <p>
-          <strong>💡 Bon à savoir :</strong> Certaines mutuelles remboursent les consultations
-          diététiques. Renseignez-vous auprès de la vôtre ! Possibilité de combiner une
-          consultation diététique et un soin énergétique pour une approche complète.
+          <strong>Bon à savoir :</strong> Certaines mutuelles remboursent jusqu'à 3 consultations
+          diététiques par an. Une facture vous est remise sans souci pour votre demande de remboursement.
         </p>
       </div>
 
@@ -62,4 +72,3 @@ export default function Pricing() {
     </SectionWrapper>
   );
 }
-
