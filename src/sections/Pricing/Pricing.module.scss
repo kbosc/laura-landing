@@ -64,6 +64,9 @@
 
 .items {
   padding: $space-2 $space-6 $space-4;
+  display: flex;
+  flex-direction: column;
+  row-gap: $space-4;
 }
 
 .item {
