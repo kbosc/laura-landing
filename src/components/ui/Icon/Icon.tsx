@@ -16,6 +16,8 @@ import {
   Flower2,
   Leaf,
   UsersRound,
+  Activity,
+  Wand2,
 } from 'lucide-react';
 
 const iconMap: Record<string, LucideIcon> = {
@@ -35,6 +37,8 @@ const iconMap: Record<string, LucideIcon> = {
   Lotus: Flower2,
   Leaf,
   UsersRound,
+  Activity,
+  Wand2,
 };
 
 export function getIcon(name: string, size = 24) {

@@ -7,7 +7,7 @@ export const workshops: Workshop[] = [
     description: 'Un moment pour créer un menu qui vous ressemble, à la fois équilibré et de saison. On réalise ensuite une liste de courses fonctionnelle associée pour éviter de se prendre la tête. Plus qu\'à faire les courses en toute sérénité !',
   },
   {
-    icon: 'Stars',
+    icon: 'Wand2',
     title: 'Manifestation — Le pouvoir de créer votre vie de rêve',
     description: 'Et si je vous disais que vous pouvez créer votre vie de rêve ? Un atelier doux et ludique où l\'on se prépare à créer notre vie telle qu\'on la voudrait. Munissez-vous d\'un calepin et d\'un stylo et embarquez dans cette aventure où vous redevenez le héros ou l\'héroïne.',
   },
