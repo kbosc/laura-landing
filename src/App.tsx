@@ -5,6 +5,7 @@ import ScrollToTop from '@/components/ui/ScrollToTop/ScrollToTop';
 import Hero from '@/sections/Hero/Hero';
 import Storytelling from '@/sections/Storytelling/Storytelling';
 import Prestations from '@/sections/Prestations/Prestations';
+import Details from '@/sections/Details/Details';
 import Workshops from '@/sections/Workshops/Workshops';
 import Myths from '@/sections/Myths/Myths';
 import Testimonials from '@/sections/Testimonials/Testimonials';
@@ -24,6 +25,8 @@ function App() {
         <WaveDivider color="#F3EDE4" />
         <Prestations />
         <WaveDivider color="#FAF8F5" />
+        <Details />
+        <WaveDivider color="#F3EDE4" />
         <Workshops />
         <WaveDivider color="#F3EDE4" />
         <Myths />

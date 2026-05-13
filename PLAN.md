@@ -143,10 +143,10 @@ Contenu riche fourni par Laura sur :
 
 | # | Tâche | Statut |
 |---|-------|--------|
-| 12.1 | Consultation Diététique — déroulé détaillé | ⬜ |
-| 12.2 | Soins énergétiques — déroulé + chaque soin (Reiki, Lahochi, Métatron, Ganesh, Scarabée d'Or, Triangle d'Or d'Isis) | ⬜ |
-| 12.3 | Guidances — première guidance vs suivantes, formats (présentiel / visio / vocal) | ⬜ |
-| 12.4 | Cartomancie — formats, contraintes (pas grossesse/santé/mort) | ⬜ |
+| 12.1 | Consultation Diététique — déroulé détaillé | ✅ |
+| 12.2 | Soins énergétiques — déroulé + chaque soin (Reiki, Lahochi, Métatron, Ganesh, Scarabée d'Or, Triangle d'Or d'Isis) | ✅ |
+| 12.3 | Guidances — première guidance vs suivantes, formats (présentiel / visio / vocal) | ✅ |
+| 12.4 | Cartomancie — formats, contraintes (pas grossesse/santé/mort) | ✅ |
 
 ---
 

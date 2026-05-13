@@ -1,0 +1,122 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: $space-2;
+  margin-bottom: $space-12;
+  background: $color-bg-alt;
+  border-radius: $radius-xl;
+  padding: $space-1;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.tabIndicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: $radius-xl;
+  z-index: 0;
+}
+
+.tab {
+  flex: 1;
+  padding: $space-3 $space-6;
+  border: none;
+  background: transparent;
+  border-radius: $radius-xl;
+  font-family: $font-sans;
+  font-weight: 700;
+  font-size: $fs-sm;
+  cursor: pointer;
+  transition: all $transition-base;
+  color: $color-text-secondary;
+  position: relative;
+  z-index: 1;
+
+  @include tablet-up {
+    font-size: $fs-base;
+  }
+}
+
+.tabActive {
+  color: $color-white;
+}
+
+.accordion {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+}
+
+.item {
+  background: $color-white;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-sm;
+  overflow: hidden;
+  border: 1px solid $color-border;
+  transition: box-shadow $transition-base;
+
+  &:hover {
+    box-shadow: $shadow-md;
+  }
+}
+
+.itemDiet {
+  border-left: 3px solid $color-diet;
+}
+
+.itemEnergy {
+  border-left: 3px solid $color-lavender;
+}
+
+.trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $space-5 $space-6;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  gap: $space-4;
+}
+
+.triggerTitle {
+  font-family: $font-serif;
+  font-size: $fs-md;
+  font-weight: 700;
+  color: $color-text;
+  line-height: 1.3;
+}
+
+.triggerIcon {
+  flex-shrink: 0;
+  color: $color-text-secondary;
+  transition: transform $transition-base;
+}
+
+.triggerIconOpen {
+  transform: rotate(180deg);
+}
+
+.body {
+  overflow: hidden;
+}
+
+.bodyInner {
+  padding: 0 $space-6 $space-6;
+  @include body-text;
+  color: $color-text-secondary;
+  font-size: $fs-sm;
+  line-height: 1.85;
+  white-space: pre-line;
+}

@@ -10,6 +10,7 @@ export const navigationItems: NavItem[] = [
       { label: 'Énergétique', href: '#prestations' },
     ],
   },
+  { label: 'En détail', href: '#details' },
   { label: 'Ateliers', href: '#ateliers' },
   { label: 'Tarifs', href: '#tarifs' },
   { label: 'FAQ', href: '#faq' },

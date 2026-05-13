@@ -10,6 +10,7 @@ export const SECTION_IDS = {
   hero: 'hero',
   storytelling: 'storytelling',
   prestations: 'prestations',
+  details: 'details',
   ateliers: 'ateliers',
   tarifs: 'tarifs',
   myths: 'myths',
