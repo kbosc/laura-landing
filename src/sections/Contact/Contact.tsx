@@ -77,7 +77,7 @@ export default function Contact() {
                 className={styles.map}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                src="https://maps.google.com/maps?q=Montevrain+77144+Seine-et-Marne&output=embed&hl=fr&z=13"
+                src="https://maps.google.com/maps?cid=2673637707251477877&output=embed&hl=fr&z=16"
               />
             </div>
           </motion.div>
