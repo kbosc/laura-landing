@@ -17,7 +17,7 @@ export default function Workshops() {
       />
 
       <p className={styles.intro}>
-        Tous les lundis à Montévrain, je propose des ateliers en petit groupe
+        Je propose des ateliers en petit groupe
         pour explorer ensemble des thématiques autour de l'alimentation, du bien-être
         et de l'énergétique. Un moment convivial d'apprentissage et de partage
         dans un cadre bienveillant.

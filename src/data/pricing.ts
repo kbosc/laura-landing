@@ -48,10 +48,12 @@ export const pricingData: PricingCategory[] = [
       {
         subtitle: 'Cartomancie',
         items: [
-          { title: '1 question', price: '10 €' },
-          { title: '3 questions', price: '30 €' },
-          { title: 'Pack vie sentimentale', price: '45 €', highlight: true },
-          { title: 'Pack vie professionnelle', price: '45 €', highlight: true },
+          { title: '1 question', price: '8 €' },
+          { title: '2 questions', price: '16 €' },
+          { title: '3 questions', price: '21 €' },
+          { title: 'Tirage sentimental', price: '40 €', highlight: true },
+          { title: 'Tirage Professionnel', price: '30 €', highlight: true },
+          { title: 'Tirage Personeel', price: '50 €', highlight: true },
         ],
       },
     ],

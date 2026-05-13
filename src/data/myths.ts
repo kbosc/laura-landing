@@ -15,7 +15,7 @@ export const myths: Myth[] = [
   },
   {
     myth: 'Les produits allégés sont meilleurs pour la santé',
-    reality: 'Bien souvent, un produit allégé n\'a pas une meilleure composition que le produit classique. Un produit allégé en sucre aura par exemple une liste d\'ingrédients plus longue, avec des exhausteurs de goût.',
+    reality: 'Bien souvent, un produit allégé n\'a pas une meilleure composition que le produit classique. Un produit allégé en sucre aura par exemple une liste d\'ingrédients plus longue, avec des exhausteurs de goût, des additifs, des colorants, donc pas toujours fatalement super sain !',
   },
   {
     myth: 'Je suis diabétique, je dois arrêter le sucre',
