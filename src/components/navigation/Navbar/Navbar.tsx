@@ -5,7 +5,6 @@ import { scrollTo } from '@/utils/scrollTo';
 import { DOCTOLIB_URL, CRENOLIBRE_URL } from '@/utils/constants';
 import { navigationItems } from '@/data/navigation';
 import Button from '@/components/ui/Button/Button';
-import logoImg from '@/assets/logo.png';
 import styles from './Navbar.module.scss';
 
 export default function Navbar() {
@@ -28,10 +27,7 @@ export default function Navbar() {
       <nav className={`${styles.navbar} ${isNavScrolled ? styles.scrolled : styles.transparent}`}>
         <div className={styles.inner}>
           <div className={styles.logo} onClick={() => handleNavClick('#hero')}>
-            <img src={logoImg} alt="EnAIRgie & Diététique" />
-            <span className={styles.logoText}>
-              En<span>AIR</span>gie & Diététique
-            </span>
+            <span className={styles.logoText}>Énairgie & Diététique</span>
           </div>
 
           <div className={styles.navLinks}>

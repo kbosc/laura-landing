@@ -24,7 +24,7 @@ Je fais le point avec vous sur ce qui vous a amené à consulter, puis nous fais
 
 Je ne pèse pas mes consultants, mais j'ai une balance si nécessaire. Le poids est une donnée médicale dont j'ai uniquement besoin pour estimer vos besoins et votre dépense énergétique.
 
-Une feuille avec une organisation alimentaire vous est remise sous 48h afin de vous orienter dans ce début de suivi. D'autres documents peuvent être joints si nécessaire.`,
+Une répartition avec des conseils personnalisés vous est remise sous 48h. On définit également les objectifs du suivi et les actions à mettre en place pour les atteindre. D'autres documents peuvent être joints si nécessaire.`,
       },
       {
         title: 'Les consultations de suivi',
@@ -121,6 +121,22 @@ Je propose plusieurs forfaits :
 • Tirage complet : vie sentimentale, vie professionnelle, évolution personnelle et blocages + 2 questions personnelles
 
 ⚠️ Pas de question sur la grossesse, la santé ou la mort.`,
+      },
+      {
+        title: 'Question simple',
+        content: `Réponse courte avec photo des cartes.`,
+      },
+      {
+        title: 'Tirage Personnel',
+        content: `On regarde où vous en êtes, recherche des blocages, observation de votre futur potentiel, conseil pour guider votre évolution personnelle.`,
+      },
+      {
+        title: 'Tirage Professionnel',
+        content: `Etat des lieux de la situation actuelle, observation des freins et des opportunités pour vous, on va chercher ce qui est le mieux pour votre bien-être.`,
+      },
+      {
+        title: 'Tirage Sentimental',
+        content: `Etat des lieux de votre situation amoureuse actuelle, recherche des freins, regard sur l'avenir potentiel de votre vie amoureuse.`,
       },
     ],
   },

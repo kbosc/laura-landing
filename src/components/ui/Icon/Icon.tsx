@@ -18,6 +18,10 @@ import {
   UsersRound,
   Activity,
   Wand2,
+  School,
+  GraduationCap,
+  ShieldCheck,
+  ClipboardCheck,
 } from 'lucide-react';
 
 const iconMap: Record<string, LucideIcon> = {
@@ -39,6 +43,10 @@ const iconMap: Record<string, LucideIcon> = {
   UsersRound,
   Activity,
   Wand2,
+  School,
+  GraduationCap,
+  ShieldCheck,
+  ClipboardCheck,
 };
 
 export function getIcon(name: string, size = 24) {

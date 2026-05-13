@@ -41,4 +41,9 @@ export const workshops: Workshop[] = [
     title: 'L\'alimentation des jeunes enfants',
     description: 'Venez découvrir les besoins et dernières recommandations alimentaires et nutritionnelles de vos bouts de chou. On n\'évoque pas seulement les recommandations mais aussi des conseils pour mieux s\'en sortir au quotidien !',
   },
+  {
+    icon: 'HandHeart',
+    title: 'Hyperphagie, boulimie, émotions',
+    description: 'Quand notre monde intérieur impact notre alimentation. Venez approfondir vos connaissance et mettre des mots sur vos maux afin de pouvoir enfin faire la paix avec votre alimentation'
+  }
 ];

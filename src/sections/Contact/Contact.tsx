@@ -51,7 +51,7 @@ export default function Contact() {
               <div className={styles.iconCircle}><Clock /></div>
               <div className={styles.infoText}>
                 <h4>Horaires</h4>
-                <p>Du lundi au vendredi, 9h – 19h<br />Samedi sur rendez-vous</p>
+                <p>lundi, 9h30 – 19h30<br />Jeudi, 10h15 - 18h30</p>
               </div>
             </div>
 
@@ -107,7 +107,7 @@ export default function Contact() {
             <p>© 2026 Énairgie & Diététique — Laura Litaudon</p>
             <p>Tous droits réservés</p>
             <div className={styles.badges}>
-              <span>N° ADELI</span>
+              <span>N° ADELI 10007258261</span>
               <span>Certifiée Reiki Usui</span>
             </div>
           </div>

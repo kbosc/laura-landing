@@ -31,6 +31,26 @@ export const dietServices: Service[] = [
     title: 'Alimentation avec une maladie métabolique',
     description: 'Réévaluer votre alimentation afin de mettre toutes les clés entre vos mains pour maintenir un bon état de santé et éviter l\'apparition de complications.',
   },
+  {
+    icon: 'School',
+    title: 'Animation pour les établissements extérieurs',
+    description: 'J\'anime également des ateliers pour les écoles, les EHPAD, les mairies sur divers sujets liés à l\'alimentation. Me contacter pour obtenir un devis personnalisé.',
+  },
+  {
+    icon: 'GraduationCap',
+    title: 'Formation besoins nutritionnels et équilibre alimentaire',
+    description: 'Je propose d\'animer des formations sur l\'équilibre alimentaire pour vos équipes soignantes que ce soit à l\'hôpital pour les aides soigants ou infirmiers, ou encore sur les besoins du jeune enfant pour le personnel de crèche.',
+  },
+  {
+    icon: 'ShieldCheck',
+    title: 'Formation HACCP et allergies alimentaires',
+    description: 'Je propose d\'animer des formations au sein de votre cuisine collective ou encore au sein de votre restaurant privé. L\'idée et de vous assurer le respect des normes d\'hygiène dans vos établissements et la formation de vos agents pour les cuisines collectives.',
+  },
+   {
+    icon: 'ClipboardCheck',
+    title: 'Aide à la création et l\'application du PMS (Plan de Maîtrise Sanitaire)',
+    description: 'Je vous propose mon aide afin de crée et veiller à \'application du PMS (Plan de Maîtrise Sanitaire) au sein de votre établissement.',
+  }
 ];
 
 export const energyServices: Service[] = [
