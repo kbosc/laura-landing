@@ -84,22 +84,18 @@
   }
 }
 
-.mapPlaceholder {
+.mapWrapper {
   width: 100%;
-  height: 320px;
+  height: 360px;
   border-radius: $radius-lg;
-  background: linear-gradient(135deg, $color-bg-alt, $color-border);
-  @include flex-center;
-  flex-direction: column;
-  gap: $space-3;
-  color: $color-text-light;
-  font-size: $fs-sm;
+  overflow: hidden;
+  box-shadow: $shadow-md;
+}
 
-  svg {
-    width: 48px;
-    height: 48px;
-    opacity: 0.4;
-  }
+.map {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 // Footer
@@ -129,7 +125,6 @@
     font-size: $fs-lg;
     color: $color-white;
     margin-bottom: $space-1;
-    span { color: #5bb8e8; }
   }
   p {
     font-family: $font-accent;

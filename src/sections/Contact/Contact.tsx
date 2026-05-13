@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { MapPin, Mail, Clock, Phone, Instagram, Facebook, Map } from 'lucide-react';
+import { MapPin, Mail, Clock, Phone, Instagram, Facebook } from 'lucide-react';
 import SectionWrapper from '@/layouts/SectionWrapper';
 import SectionTitle from '@/components/ui/SectionTitle/SectionTitle';
 import { EMAIL, PHONE, ADDRESS, INSTAGRAM_URL, FACEBOOK_URL } from '@/utils/constants';
@@ -71,10 +71,14 @@ export default function Contact() {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <div className={styles.mapPlaceholder}>
-              <Map />
-              <span>Montévrain (77144)</span>
-              <span>Carte interactive à venir</span>
+            <div className={styles.mapWrapper}>
+              <iframe
+                title="Localisation Énairgie & Diététique — Montévrain"
+                className={styles.map}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=Montevrain+77144+Seine-et-Marne&output=embed&hl=fr&z=13"
+              />
             </div>
           </motion.div>
         </div>
@@ -90,8 +94,8 @@ export default function Contact() {
           viewport={{ once: true }}
         >
           <div className={styles.footerBrand}>
-            <h4>En<span>AIR</span>gie & Diététique</h4>
-            <p>Nourrissez votre corps, libérez votre énergie.</p>
+            <h4>Énairgie & Diététique</h4>
+            <p>Respirer, se nourrir, rayonner.</p>
           </div>
 
           <div className={styles.footerLinks}>
@@ -100,7 +104,7 @@ export default function Contact() {
           </div>
 
           <div className={styles.footerCopy}>
-            <p>© 2026 EnAIRgie & Diététique — Laura Litaudon</p>
+            <p>© 2026 Énairgie & Diététique — Laura Litaudon</p>
             <p>Tous droits réservés</p>
             <div className={styles.badges}>
               <span>N° ADELI</span>
