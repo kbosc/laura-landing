@@ -120,7 +120,7 @@ Je propose plusieurs forfaits :
 • Tirage Professionnel : 30 €
 • Tirage Sentimental : 40 €
 • Tirage Personnel : 50 €
-• Tirage complet : vie sentimentale, vie professionnelle, évolution personnelle et blocages + 2 questions personnelles
+• Tirage complet : vie sentimentale, vie professionnelle, évolution personnelle et blocages + 2 questions personnelles : 100 €
 
 ⚠️ Pas de question sur la grossesse, la santé ou la mort.`,
       },
