@@ -98,11 +98,6 @@ export default function Contact() {
             <p>Respirer, se nourrir, rayonner.</p>
           </div>
 
-          <div className={styles.footerLinks}>
-            <a href="#mentions-legales">Mentions légales</a>
-            <a href="#confidentialite">Confidentialité</a>
-          </div>
-
           <div className={styles.footerCopy}>
             <p>© 2026 Énairgie & Diététique — Laura Litaudon</p>
             <p>Tous droits réservés</p>

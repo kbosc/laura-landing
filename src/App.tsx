@@ -1,7 +1,6 @@
 import Navbar from '@/components/navigation/Navbar/Navbar';
 import GradientOverlay from '@/components/decorative/GradientOverlay/GradientOverlay';
 import WaveDivider from '@/components/decorative/WaveDivider/WaveDivider';
-import ScrollToTop from '@/components/ui/ScrollToTop/ScrollToTop';
 import Hero from '@/sections/Hero/Hero';
 import Storytelling from '@/sections/Storytelling/Storytelling';
 import Prestations from '@/sections/Prestations/Prestations';
@@ -39,7 +38,9 @@ function App() {
         <WaveDivider color="#3A2E2A" />
         <Contact />
       </main>
-      <ScrollToTop />
+      {
+      // <ScrollToTop />
+      }
     </>
   );
 }

@@ -3,7 +3,6 @@ import { ChevronDown, Salad, Sparkles } from 'lucide-react';
 import Button from '@/components/ui/Button/Button';
 import { DOCTOLIB_URL, CRENOLIBRE_URL } from '@/utils/constants';
 import { scrollTo } from '@/utils/scrollTo';
-import logoImg from '@/assets/logo.png';
 import bannerBg from '@/assets/banner-bis.jpg';
 import styles from './Hero.module.scss';
 
@@ -15,15 +14,6 @@ export default function Hero() {
       </div>
 
       <div className={styles.content}>
-        <motion.img
-          src={logoImg}
-          alt="Logo EnAIRgie & Diététique"
-          className={styles.logo}
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, ease: 'easeOut' }}
-        />
-
         <motion.h1
           className={styles.title}
           initial={{ opacity: 0, y: 30 }}
@@ -80,16 +70,17 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      <motion.div
+      <motion.button
         className={styles.scrollIndicator}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
         onClick={() => scrollTo('storytelling')}
+        aria-label="Défiler vers le contenu"
       >
-        <span>Découvrir</span>
-        <ChevronDown className={styles.chevron} />
-      </motion.div>
+        <span aria-hidden="true">Découvrir</span>
+        <ChevronDown className={styles.chevron} aria-hidden="true" />
+      </motion.button>
     </section>
   );
 }

@@ -35,18 +35,26 @@ export default function FAQ() {
             className={`${styles.item} ${expandedIndex === i ? styles.open : ''}`}
             variants={fadeInUp}
           >
-            <button className={styles.question} onClick={() => toggle(i)}>
+            <button
+              className={styles.question}
+              onClick={() => toggle(i)}
+              aria-expanded={expandedIndex === i}
+              aria-controls={`faq-answer-${i}`}
+            >
               <span>{item.question}</span>
-              <ChevronDown />
+              <ChevronDown aria-hidden="true" />
             </button>
             <AnimatePresence>
               {expandedIndex === i && (
                 <motion.div
+                  id={`faq-answer-${i}`}
                   className={styles.answer}
                   initial={{ height: 0, opacity: 0 }}
                   animate={{ height: 'auto', opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.3, ease: 'easeInOut' }}
+                  role="region"
+                  aria-label={item.question}
                 >
                   <p>{item.answer}</p>
                 </motion.div>

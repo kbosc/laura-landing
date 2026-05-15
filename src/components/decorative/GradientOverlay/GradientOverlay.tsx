@@ -2,11 +2,10 @@ import { useEffect, useState } from 'react';
 
 const colorStops = [
   { pos: 0,    color: [250, 248, 245] },  // #FAF8F5 blanc cassé
-  { pos: 0.15, color: [245, 230, 163] },  // #F5E6A3 jaune citron
-  { pos: 0.3,  color: [232, 240, 226] },  // #E8F0E2 vert clair
-  { pos: 0.5,  color: [242, 228, 232] },  // #F2E4E8 rose clair
-  { pos: 0.7,  color: [232, 220, 240] },  // #E8DCF0 lavande
-  { pos: 0.85, color: [243, 237, 228] },  // #F3EDE4 crème
+  { pos: 0.2,  color: [232, 240, 226] },  // #E8F0E2 vert clair
+  { pos: 0.4,  color: [242, 228, 232] },  // #F2E4E8 rose clair
+  { pos: 0.6,  color: [232, 220, 240] },  // #E8DCF0 lavande
+  { pos: 0.8,  color: [243, 237, 228] },  // #F3EDE4 crème
   { pos: 1,    color: [250, 248, 245] },  // #FAF8F5 blanc cassé
 ];
 
