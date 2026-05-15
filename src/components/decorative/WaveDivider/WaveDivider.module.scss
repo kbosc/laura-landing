@@ -1,11 +1,16 @@
 @use '../../../styles/variables' as *;
 
+.wrapper {
+  display: block;
+  width: 100%;
+  margin: -1px 0;
+  line-height: 0;
+}
+
 .wave {
   display: block;
   width: 100%;
   height: auto;
-  margin: -1px 0;
-  line-height: 0;
 
   path {
     transition: fill $transition-slow;
@@ -15,4 +20,3 @@
 .flip {
   transform: scaleY(-1);
 }
-

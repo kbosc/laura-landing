@@ -1,6 +1,7 @@
 import Navbar from '@/components/navigation/Navbar/Navbar';
 import GradientOverlay from '@/components/decorative/GradientOverlay/GradientOverlay';
 import WaveDivider from '@/components/decorative/WaveDivider/WaveDivider';
+import { COLORS } from '@/utils/constants';
 import Hero from '@/sections/Hero/Hero';
 import Storytelling from '@/sections/Storytelling/Storytelling';
 import Prestations from '@/sections/Prestations/Prestations';
@@ -19,23 +20,21 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <WaveDivider color="#FAF8F5" />
+        <WaveDivider colorAbove={COLORS.bg} colorBelow={COLORS.bg} />
         <Storytelling />
-        <WaveDivider color="#F3EDE4" />
+        <WaveDivider colorAbove={COLORS.bg} colorBelow={COLORS.bgAlt} />
         <Prestations />
-        <WaveDivider color="#FAF8F5" />
         <Details />
-        <WaveDivider color="#F3EDE4" />
+        <WaveDivider colorAbove={COLORS.bgAlt} colorBelow={COLORS.bg} />
         <Workshops />
-        <WaveDivider color="#F3EDE4" />
+        <WaveDivider colorAbove={COLORS.bg} colorBelow={COLORS.bgAlt} />
         <Myths />
-        <WaveDivider color="#FAF8F5" />
+        <WaveDivider colorAbove={COLORS.bgAlt} colorBelow={COLORS.bg} />
         <Testimonials />
-        <WaveDivider color="#F3EDE4" />
         <Pricing />
-        <WaveDivider color="#FAF8F5" flip />
+        <WaveDivider colorAbove={COLORS.bg} colorBelow={COLORS.bgAlt} flip />
         <FAQ />
-        <WaveDivider color="#3A2E2A" />
+        <WaveDivider colorAbove={COLORS.bgAlt} colorBelow={COLORS.bg} />
         <Contact />
       </main>
       {

@@ -1,0 +1,432 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6] [cursor=pointer]: Énairgie & Diététique
+      - generic [ref=e7]:
+        - button "Accueil" [ref=e8] [cursor=pointer]
+        - button "Prestations" [ref=e10] [cursor=pointer]
+        - button "En détail" [ref=e11] [cursor=pointer]
+        - button "Ateliers" [ref=e12] [cursor=pointer]
+        - button "Tarifs" [ref=e13] [cursor=pointer]
+        - button "FAQ" [ref=e14] [cursor=pointer]
+        - button "Contact" [ref=e15] [cursor=pointer]
+      - link "Prendre RDV" [ref=e17] [cursor=pointer]:
+        - /url: https://www.doctolib.fr/dieteticien/montevrain/laura-litaudon
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - img [ref=e21]
+      - generic [ref=e22]:
+        - heading "Énairgie & Diététique" [level=1] [ref=e23]
+        - paragraph [ref=e24]: La santé de la matière première à l'invisible.
+        - paragraph [ref=e25]: Respirer, se nourrir, rayonner.
+        - paragraph [ref=e26]: Tous les lundis à Montévrain, je vous propose de retrouver un équilibre, qu'il soit alimentaire, émotionnel, ou encore énergétique. Venez pour un moment de partage, où l'on apprend, on se détend et on ressort avec plus de clarté, de sérénité et de conscience.
+        - generic [ref=e27]:
+          - link "Prendre RDV Diététique" [ref=e28] [cursor=pointer]:
+            - /url: https://www.doctolib.fr/dieteticien/montevrain/laura-litaudon
+            - img [ref=e29]
+            - text: Prendre RDV Diététique
+          - link "Prendre RDV Énergétique" [ref=e34] [cursor=pointer]:
+            - /url: https://www.crenolibre.fr/prendre-rdv/159341_enairgie-et-dietetique
+            - img [ref=e35]
+            - text: Prendre RDV Énergétique
+      - button "Défiler vers le contenu" [ref=e38] [cursor=pointer]:
+        - generic [ref=e39]: Découvrir
+        - img [ref=e40]
+    - img [ref=e42]
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - heading "Votre Diététicienne-Énergéticienne" [level=2] [ref=e47]
+        - paragraph [ref=e48]: 10 ans à prendre soin de vous
+      - generic [ref=e50]:
+        - img "Laura Litaudon, diététicienne-énergéticienne" [ref=e52]
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: Diététicienne depuis bientôt 10 ans, c'est forte de mon expérience que je mets aujourd'hui mes compétences à votre service.
+          - paragraph [ref=e55]: La pluralité et la diversité de mes expériences me permettent aujourd'hui de prendre en charge les patients allant du bébé à la personne âgée.
+          - paragraph [ref=e56]: Énergéticienne depuis avril 2025, je fais le choix de proposer des soins énergétiques et des guidances afin de vous aider à retrouver un équilibre intérieur et de l'apaisement.
+          - paragraph [ref=e57]: L'énergétique me permet aujourd'hui d'approfondir la cause de certains symptômes que vous m'indiquerez en consultations diététiques. La partie énergétique permet de mettre en lumière des éléments que nous ne voyons parfois pas au premier abord.
+          - paragraph [ref=e58]: Il est demandé ici de revenir à soi et laisser place à davantage de silence pour entendre les messages que notre corps cherche à nous faire passer de diverses manières.
+          - paragraph [ref=e59]: L'idée est également de pouvoir déconstruire les croyances limitantes qui peuvent nous impacter et nous freiner. En diététique et en énergétique, nous pourrons travailler conjointement pour démêler le vrai du faux et vous permettre de retrouver assurance et autonomie.
+          - button "Découvrir mes prestations" [ref=e61] [cursor=pointer]
+    - img [ref=e62]
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - heading "Diététique" [level=2] [ref=e67]
+        - paragraph [ref=e68]: Une alimentation complète et flexible
+      - generic [ref=e70]:
+        - button "Diététique" [ref=e72] [cursor=pointer]
+        - button "Énergétique" [ref=e73] [cursor=pointer]
+      - generic [ref=e74]:
+        - paragraph [ref=e75]: Mon objectif est que vous ressortiez de nos consultations avec une relation saine avec votre alimentation afin que vous puissiez faire des choix conscients et autonomes sur ce que vous allez manger au quotidien. L'alimentation doit rester une source d'apports énergétiques et de plaisir. L'idée c'est de prendre soin de sa santé tout en restant dans une alimentation adaptée à votre rythme de vie et à vos particularités qui vous sont propres.
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - img [ref=e79]
+            - heading "Rééquilibrage alimentaire / Perte de poids" [level=3] [ref=e82]
+            - paragraph [ref=e83]: Un accompagnement personnalisé pour vous réapprendre ou vous apprendre ce dont vous avez vraiment besoin pour tenter de perdre du poids.
+          - generic [ref=e84]:
+            - img [ref=e86]
+            - heading "Femmes enceintes et femmes allaitantes" [level=3] [ref=e89]
+            - paragraph [ref=e90]: Ajustement de votre alimentation pour vous permettre de répondre aux besoins liés à la grossesse ou à l'allaitement pour le bien-être de maman et bébé.
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - heading "Troubles du comportement alimentaire" [level=3] [ref=e95]
+            - paragraph [ref=e96]: Un accompagnement à votre rythme pour vous aider à mieux vivre au quotidien et à défaire méticuleusement un par un les blocages liés aux troubles du comportement alimentaire.
+          - generic [ref=e97]:
+            - img [ref=e99]
+            - heading "Alimentation de l'enfant de 0 à 18 ans" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Prise en charge de vos enfants pour des demandes concernant la diversification de vos bébés, les troubles de l'oralité, l'éducation nutritionnelle ou encore la gestion du poids et de l'image corporelle.
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - heading "L'alimentation des seniors" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Prise en charge des personnes âgées avec dépistage systématique de la dénutrition.
+          - generic [ref=e113]:
+            - img [ref=e115]
+            - heading "Alimentation avec une maladie métabolique" [level=3] [ref=e117]
+            - paragraph [ref=e118]: Réévaluer votre alimentation afin de mettre toutes les clés entre vos mains pour maintenir un bon état de santé et éviter l'apparition de complications.
+          - generic [ref=e119]:
+            - img [ref=e121]
+            - heading "Animation pour les établissements extérieurs" [level=3] [ref=e126]
+            - paragraph [ref=e127]: J'anime également des ateliers pour les écoles, les EHPAD, les mairies sur divers sujets liés à l'alimentation. Me contacter pour obtenir un devis personnalisé.
+          - generic [ref=e128]:
+            - img [ref=e130]
+            - heading "Formation besoins nutritionnels et équilibre alimentaire" [level=3] [ref=e133]
+            - paragraph [ref=e134]: Je propose d'animer des formations sur l'équilibre alimentaire pour vos équipes soignantes que ce soit à l'hôpital pour les aides soigants ou infirmiers, ou encore sur les besoins du jeune enfant pour le personnel de crèche.
+          - generic [ref=e135]:
+            - img [ref=e137]
+            - heading "Formation HACCP et allergies alimentaires" [level=3] [ref=e140]
+            - paragraph [ref=e141]: Je propose d'animer des formations au sein de votre cuisine collective ou encore au sein de votre restaurant privé. L'idée et de vous assurer le respect des normes d'hygiène dans vos établissements et la formation de vos agents pour les cuisines collectives.
+          - generic [ref=e142]:
+            - img [ref=e144]
+            - heading "Aide à la création et l'application du PMS (Plan de Maîtrise Sanitaire)" [level=3] [ref=e148]
+            - paragraph [ref=e149]: Je vous propose mon aide afin de crée et veiller à 'application du PMS (Plan de Maîtrise Sanitaire) au sein de votre établissement.
+        - link "Réserver une consultation Diététique" [ref=e151] [cursor=pointer]:
+          - /url: https://www.doctolib.fr/dieteticien/montevrain/laura-litaudon
+    - img [ref=e152]
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - heading "Comment ça se passe ?" [level=2] [ref=e157]
+        - paragraph [ref=e158]: Tout ce que vous souhaitez savoir avant votre rendez-vous
+      - tablist "Univers de soin" [ref=e160]:
+        - tab "Diététique" [selected] [ref=e162] [cursor=pointer]
+        - tab "Énergétique" [ref=e163] [cursor=pointer]
+      - tabpanel "Diététique" [ref=e164]:
+        - button "La première consultation" [ref=e166] [cursor=pointer]:
+          - generic [ref=e167]: La première consultation
+          - img [ref=e168]
+        - button "Les consultations de suivi" [ref=e171] [cursor=pointer]:
+          - generic [ref=e172]: Les consultations de suivi
+          - img [ref=e173]
+        - button "Le suivi à domicile (seniors)" [ref=e176] [cursor=pointer]:
+          - generic [ref=e177]: Le suivi à domicile (seniors)
+          - img [ref=e178]
+    - img [ref=e180]
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - heading "Les ateliers" [level=2] [ref=e185]
+        - paragraph [ref=e186]: Apprenez, partagez, grandissez ensemble
+      - paragraph [ref=e188]: Je propose des ateliers en petit groupe pour explorer ensemble des thématiques autour de l'alimentation, du bien-être et de l'énergétique. Un moment convivial d'apprentissage et de partage dans un cadre bienveillant.
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - img [ref=e192]
+          - heading "Concevoir ses menus" [level=3] [ref=e194]
+          - paragraph [ref=e195]: Un moment pour créer un menu qui vous ressemble, à la fois équilibré et de saison. On réalise ensuite une liste de courses fonctionnelle associée pour éviter de se prendre la tête. Plus qu'à faire les courses en toute sérénité !
+        - generic [ref=e196]:
+          - img [ref=e198]
+          - heading "Manifestation — Le pouvoir de créer votre vie de rêve" [level=3] [ref=e201]
+          - paragraph [ref=e202]: Et si je vous disais que vous pouvez créer votre vie de rêve ? Un atelier doux et ludique où l'on se prépare à créer notre vie telle qu'on la voudrait. Munissez-vous d'un calepin et d'un stylo et embarquez dans cette aventure où vous redevenez le héros ou l'héroïne.
+        - generic [ref=e203]:
+          - img [ref=e205]
+          - heading "Méditation et mini guidances" [level=3] [ref=e210]
+          - paragraph [ref=e211]: Venez prendre un moment pour ralentir et écouter ce qui se passe à l'intérieur de vous. Nous explorerons différentes manières de méditer et procéderons ensuite à des tirages pour vous guider sur un sujet qui vous tient à cœur.
+        - generic [ref=e212]:
+          - img [ref=e214]
+          - heading "Cuisine en famille" [level=3] [ref=e218]
+          - paragraph [ref=e219]: Venez partager un moment entre parents et enfants ! Rien de tel que de faire découvrir un autre aspect de l'alimentation à votre enfant en lui faisant mettre la main à la pâte. Moments de complicité et gourmandises au programme.
+        - generic [ref=e220]:
+          - img [ref=e222]
+          - heading "Cercles de femmes" [level=3] [ref=e224]
+          - paragraph [ref=e225]: Un moment doux et sacré pour évoquer le sujet qui vous tient à cœur dans un groupe réduit et bienveillant. Et si c'était le moment de libérer ce qui vous pèse et vous freine ? Et si on reparlait sororité ?
+        - generic [ref=e226]:
+          - img [ref=e228]
+          - heading "Diabète, cholestérol, triglycérides — les vraies recommandations" [level=3] [ref=e230]
+          - paragraph [ref=e231]: Venez découvrir quelles sont les vraies recommandations afin de ne plus être perdus face aux conseils divers et variés. Un atelier éducatif mais qui restera ludique, pour apprendre à manger sans s'isoler.
+        - generic [ref=e232]:
+          - img [ref=e234]
+          - heading "Diversification alimentaire de vos bébés" [level=3] [ref=e237]
+          - paragraph [ref=e238]: "Un atelier entre mamans (et/ou papas) pour aborder les tous premiers repas de vos bébés. On y parlera de diversification classique mais aussi de la fameuse DME : diversification menée par l'enfant."
+        - generic [ref=e239]:
+          - img [ref=e241]
+          - heading "L'alimentation des jeunes enfants" [level=3] [ref=e244]
+          - paragraph [ref=e245]: Venez découvrir les besoins et dernières recommandations alimentaires et nutritionnelles de vos bouts de chou. On n'évoque pas seulement les recommandations mais aussi des conseils pour mieux s'en sortir au quotidien !
+        - generic [ref=e246]:
+          - img [ref=e248]
+          - heading "Hyperphagie, boulimie, émotions" [level=3] [ref=e253]
+          - paragraph [ref=e254]: Quand notre monde intérieur impact notre alimentation. Venez approfondir vos connaissance et mettre des mots sur vos maux afin de pouvoir enfin faire la paix avec votre alimentation
+      - button "Me contacter pour les prochains ateliers" [ref=e256] [cursor=pointer]
+    - img [ref=e257]
+    - generic [ref=e260]:
+      - generic [ref=e261]:
+        - heading "Vrai/faux sur vos croyances" [level=2] [ref=e262]
+        - paragraph [ref=e263]: Ces idées reçues qui nous freinent
+      - generic [ref=e265]:
+        - generic [ref=e267] [cursor=pointer]:
+          - generic [ref=e268]:
+            - generic [ref=e269]: ❌ Idée reçue
+            - paragraph [ref=e270]: « Le pain fait grossir »
+            - generic [ref=e271]: Cliquez pour découvrir la réalité
+          - generic [ref=e272]:
+            - generic [ref=e273]: ✅ Réalité
+            - paragraph [ref=e274]: Absolument aucun aliment ne vous fera grossir en soi. En revanche, une consommation excessive d'un aliment peut déséquilibrer votre balance énergétique. On remet l'accent sur l'équilibre et non sur la sélectivité alimentaire.
+        - generic [ref=e276] [cursor=pointer]:
+          - generic [ref=e277]:
+            - generic [ref=e278]: ❌ Idée reçue
+            - paragraph [ref=e279]: « Il faut supprimer le gras pour maigrir »
+            - generic [ref=e280]: Cliquez pour découvrir la réalité
+          - generic [ref=e281]:
+            - generic [ref=e282]: ✅ Réalité
+            - paragraph [ref=e283]: "Il existe des alimentations où l'apport lipidique est majoritaire et où la perte de poids est néanmoins possible (ex. : régime cétogène). On contrôle surtout la qualité des graisses que l'on mange."
+        - generic [ref=e285] [cursor=pointer]:
+          - generic [ref=e286]:
+            - generic [ref=e287]: ❌ Idée reçue
+            - paragraph [ref=e288]: « Un soin énergétique ne peut pas se faire à distance »
+            - generic [ref=e289]: Cliquez pour découvrir la réalité
+          - generic [ref=e290]:
+            - generic [ref=e291]: ✅ Réalité
+            - paragraph [ref=e292]: FAUX. L'énergie n'est pas limitée par la distance car tout est connecté et tout est énergie. Le meilleur moyen d'être fixé, c'est de tester et de voir ce que vous ressentez !
+        - generic [ref=e294] [cursor=pointer]:
+          - generic [ref=e295]:
+            - generic [ref=e296]: ❌ Idée reçue
+            - paragraph [ref=e297]: « Les produits allégés sont meilleurs pour la santé »
+            - generic [ref=e298]: Cliquez pour découvrir la réalité
+          - generic [ref=e299]:
+            - generic [ref=e300]: ✅ Réalité
+            - paragraph [ref=e301]: Bien souvent, un produit allégé n'a pas une meilleure composition que le produit classique. Un produit allégé en sucre aura par exemple une liste d'ingrédients plus longue, avec des exhausteurs de goût, des additifs, des colorants, donc pas toujours fatalement super sain !
+        - generic [ref=e303] [cursor=pointer]:
+          - generic [ref=e304]:
+            - generic [ref=e305]: ❌ Idée reçue
+            - paragraph [ref=e306]: « Je suis diabétique, je dois arrêter le sucre »
+            - generic [ref=e307]: Cliquez pour découvrir la réalité
+          - generic [ref=e308]:
+            - generic [ref=e309]: ✅ Réalité
+            - paragraph [ref=e310]: FAUX. Une personne avec un diabète mange globalement comme une personne qui suit l'équilibre alimentaire. Il y a des conseils particuliers entre diabète de type 1 et 2, mais on se rapproche beaucoup d'une alimentation équilibrée classique.
+      - button "Envie d'en apprendre plus ? Réservez votre bilan" [ref=e312] [cursor=pointer]
+    - img [ref=e313]
+    - generic [ref=e316]:
+      - generic [ref=e317]:
+        - heading "Ils m'ont fait confiance" [level=2] [ref=e318]
+        - paragraph [ref=e319]: Leurs mots, ma plus belle récompense
+      - generic [ref=e322]:
+        - generic [ref=e323]: "\""
+        - generic [ref=e324]:
+          - img [ref=e325]
+          - img [ref=e327]
+          - img [ref=e329]
+          - img [ref=e331]
+          - img [ref=e333]
+        - paragraph [ref=e335]: J'ai démarré mon suivi avec Laura il y a peu et je suis très satisfaite ; elle a su être très à l'écoute face à ma situation et elle m'a proposé des alternatives pour m'aider face à mes problèmes de diététique.
+        - generic [ref=e336]:
+          - generic [ref=e337]: A
+          - generic [ref=e338]:
+            - generic [ref=e339]: Avis Google
+            - generic [ref=e340]: via Google
+      - link "Voir tous les avis sur Google" [ref=e342] [cursor=pointer]:
+        - /url: https://www.google.com/search?q=avis+laura+litaudon+mont%C3%A9vrain&tbm=lcl#lkt=LocalPoiReviews
+        - img [ref=e343]
+        - text: Voir tous les avis sur Google
+    - img [ref=e347]
+    - generic [ref=e350]:
+      - generic [ref=e351]:
+        - heading "Tarifs transparents" [level=2] [ref=e352]
+        - paragraph [ref=e353]: Investissez dans votre bien-être
+      - generic [ref=e355]:
+        - generic [ref=e356]:
+          - heading "Diététique" [level=3] [ref=e358]
+          - generic [ref=e359]:
+            - heading "Tarifs individuels" [level=4] [ref=e360]
+            - generic [ref=e361]:
+              - generic [ref=e362]:
+                - generic [ref=e364]: 1ère consultation adultes
+                - generic [ref=e365]: 65 €
+              - generic [ref=e366]:
+                - generic [ref=e368]: Consultation de suivi adultes
+                - generic [ref=e369]: 50 €
+              - generic [ref=e370]:
+                - generic [ref=e372]: 1ère consultation enfants *
+                - generic [ref=e373]: 60 €
+              - generic [ref=e374]:
+                - generic [ref=e376]: Consultation de suivi enfants *
+                - generic [ref=e377]: 40 €
+              - generic [ref=e378]:
+                - generic [ref=e380]: 1ère consultation seniors *
+                - generic [ref=e381]: 50 €
+              - generic [ref=e382]:
+                - generic [ref=e384]: Consultation de suivi seniors *
+                - generic [ref=e385]: 40 €
+            - paragraph [ref=e386]: "* Enfants de 0 à 18 ans · Seniors à partir de 65 ans Déplacements à domicile pour les seniors : 5 € (0–5 km) · 10 € (5–10 km) · 15 € (10–20 km) · puis 6 € / 10 km"
+          - generic [ref=e387]:
+            - heading "Tarifs promotionnels" [level=4] [ref=e388]
+            - generic [ref=e389]:
+              - generic [ref=e390]:
+                - generic [ref=e392]: 1ère consultation duo parents / enfants
+                - generic [ref=e393]: 95 €
+              - generic [ref=e394]:
+                - generic [ref=e396]: Suivi duo parents / enfants
+                - generic [ref=e397]: 70 €
+              - generic [ref=e398]:
+                - generic [ref=e400]: 1ère consultation + 2 suivis adultes
+                - generic [ref=e401]: 135 €
+              - generic [ref=e402]:
+                - generic [ref=e404]: 3 consultations de suivi adultes
+                - generic [ref=e405]: 120 €
+              - generic [ref=e406]:
+                - generic [ref=e408]: 1ère consultation + 2 suivis enfants
+                - generic [ref=e409]: 110 €
+              - generic [ref=e410]:
+                - generic [ref=e412]: 3 suivis enfants
+                - generic [ref=e413]: 100 €
+              - generic [ref=e414]:
+                - generic [ref=e416]: 1ère consultation + 2 suivis seniors
+                - generic [ref=e417]: 110 €
+              - generic [ref=e418]:
+                - generic [ref=e420]: 3 suivis seniors
+                - generic [ref=e421]: 100 €
+        - generic [ref=e422]:
+          - heading "Énergétique" [level=3] [ref=e424]
+          - generic [ref=e425]:
+            - heading "Soins & guidances" [level=4] [ref=e426]
+            - generic [ref=e427]:
+              - generic [ref=e428]:
+                - generic [ref=e430]: Reiki (présentiel uniquement)
+                - generic [ref=e431]: 65 €
+              - generic [ref=e432]:
+                - generic [ref=e434]: Soins énergétiques (Métatron, Ganesh, Scarabée d'Or, Triangle d'Or d'Isis, Lahochi)
+                - generic [ref=e435]: 75 €
+              - generic [ref=e436]:
+                - generic [ref=e438]: Première guidance
+                - generic [ref=e439]: 95 €
+              - generic [ref=e440]:
+                - generic [ref=e442]: Guidances suivantes
+                - generic [ref=e443]: 85 €
+          - generic [ref=e444]:
+            - heading "Cartomancie" [level=4] [ref=e445]
+            - generic [ref=e446]:
+              - generic [ref=e447]:
+                - generic [ref=e449]: 1 question
+                - generic [ref=e450]: 8 €
+              - generic [ref=e451]:
+                - generic [ref=e453]: 2 questions
+                - generic [ref=e454]: 16 €
+              - generic [ref=e455]:
+                - generic [ref=e457]: 3 questions
+                - generic [ref=e458]: 21 €
+              - generic [ref=e459]:
+                - generic [ref=e461]: Tirage Professionnel
+                - generic [ref=e462]: 30 €
+              - generic [ref=e463]:
+                - generic [ref=e465]: Tirage sentimental
+                - generic [ref=e466]: 40 €
+              - generic [ref=e467]:
+                - generic [ref=e469]: Tirage Personnel
+                - generic [ref=e470]: 50 €
+      - paragraph [ref=e472]:
+        - strong [ref=e473]: "Bon à savoir :"
+        - text: Certaines mutuelles remboursent jusqu'à 3 consultations diététiques par an. Une facture vous est remise sans souci pour votre demande de remboursement.
+      - generic [ref=e474]:
+        - link "Réserver Diététique" [ref=e475] [cursor=pointer]:
+          - /url: https://www.doctolib.fr/dieteticien/montevrain/laura-litaudon
+          - img [ref=e476]
+          - text: Réserver Diététique
+        - link "Réserver Énergétique" [ref=e481] [cursor=pointer]:
+          - /url: https://www.crenolibre.fr/prendre-rdv/159341_enairgie-et-dietetique
+          - img [ref=e482]
+          - text: Réserver Énergétique
+    - img [ref=e485]
+    - generic [ref=e488]:
+      - generic [ref=e489]:
+        - heading "Questions fréquentes" [level=2] [ref=e490]
+        - paragraph [ref=e491]: Tout ce que vous voulez savoir avant de prendre rendez-vous
+      - generic [ref=e493]:
+        - button "Les consultations diététiques sont-elles remboursées ?" [ref=e495] [cursor=pointer]:
+          - generic [ref=e496]: Les consultations diététiques sont-elles remboursées ?
+          - img [ref=e497]
+        - button "Vous déplacez-vous à domicile ?" [ref=e500] [cursor=pointer]:
+          - generic [ref=e501]: Vous déplacez-vous à domicile ?
+          - img [ref=e502]
+        - button "Puis-je venir avec bébé ou mon enfant en consultation ?" [ref=e505] [cursor=pointer]:
+          - generic [ref=e506]: Puis-je venir avec bébé ou mon enfant en consultation ?
+          - img [ref=e507]
+        - button "Si je ne crois pas aux soins énergétiques, est-ce que ça va marcher ?" [ref=e510] [cursor=pointer]:
+          - generic [ref=e511]: Si je ne crois pas aux soins énergétiques, est-ce que ça va marcher ?
+          - img [ref=e512]
+        - button "Pourquoi une différence de prix entre le Reiki et les autres soins énergétiques ?" [ref=e515] [cursor=pointer]:
+          - generic [ref=e516]: Pourquoi une différence de prix entre le Reiki et les autres soins énergétiques ?
+          - img [ref=e517]
+        - button "Quels sont les moyens de paiement acceptés ?" [ref=e520] [cursor=pointer]:
+          - generic [ref=e521]: Quels sont les moyens de paiement acceptés ?
+          - img [ref=e522]
+        - button "Démarrer un suivi diététique garantit-il une perte de poids ?" [ref=e525] [cursor=pointer]:
+          - generic [ref=e526]: Démarrer un suivi diététique garantit-il une perte de poids ?
+          - img [ref=e527]
+        - button "Y a-t-il des soins énergétiques mieux que d'autres ?" [ref=e530] [cursor=pointer]:
+          - generic [ref=e531]: Y a-t-il des soins énergétiques mieux que d'autres ?
+          - img [ref=e532]
+        - button "Pourquoi un tarif préférentiel pour les seniors et les enfants ?" [ref=e535] [cursor=pointer]:
+          - generic [ref=e536]: Pourquoi un tarif préférentiel pour les seniors et les enfants ?
+          - img [ref=e537]
+        - button "Les soins énergétiques peuvent-ils se faire à distance ?" [ref=e540] [cursor=pointer]:
+          - generic [ref=e541]: Les soins énergétiques peuvent-ils se faire à distance ?
+          - img [ref=e542]
+        - button "Y a-t-il des contre-indications pour les soins énergétiques ?" [ref=e545] [cursor=pointer]:
+          - generic [ref=e546]: Y a-t-il des contre-indications pour les soins énergétiques ?
+          - img [ref=e547]
+        - button "Comment se déroule une première consultation diététique ?" [ref=e550] [cursor=pointer]:
+          - generic [ref=e551]: Comment se déroule une première consultation diététique ?
+          - img [ref=e552]
+    - img [ref=e554]
+    - generic [ref=e557]:
+      - generic [ref=e558]:
+        - heading "Rencontrons-nous" [level=2] [ref=e559]
+        - paragraph [ref=e560]: Au cabinet ou en visio, je suis là pour vous
+      - generic [ref=e562]:
+        - generic [ref=e563]:
+          - generic [ref=e564]:
+            - img [ref=e566]
+            - generic [ref=e569]:
+              - heading "Adresse" [level=4] [ref=e570]
+              - paragraph [ref=e571]: Montévrain (77144) — Seine-et-Marne
+          - generic [ref=e572]:
+            - img [ref=e574]
+            - generic [ref=e577]:
+              - heading "Email" [level=4] [ref=e578]
+              - link "energie.dietetique@gmail.com" [ref=e579] [cursor=pointer]:
+                - /url: mailto:energie.dietetique@gmail.com
+          - generic [ref=e580]:
+            - img [ref=e582]
+            - generic [ref=e584]:
+              - heading "Téléphone" [level=4] [ref=e585]
+              - link "07 43 65 36 91" [ref=e586] [cursor=pointer]:
+                - /url: tel:0743653691
+          - generic [ref=e587]:
+            - img [ref=e589]
+            - generic [ref=e592]:
+              - heading "Horaires" [level=4] [ref=e593]
+              - paragraph [ref=e594]:
+                - text: lundi, 9h30 – 19h30
+                - text: Jeudi, 10h15 - 18h30
+          - generic [ref=e595]:
+            - link "Instagram" [ref=e596] [cursor=pointer]:
+              - /url: https://www.instagram.com/enairgie_et_dietetique
+              - img [ref=e597]
+            - link "Facebook" [ref=e600] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/Laura-Litaudon-%C3%89nairgie-et-Di%C3%A9t%C3%A9tique/61586448604563/?rdid=SX33UVeYDsWIzokA&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18eXToSZ7T%2F
+              - img [ref=e601]
+        - iframe [ref=e605]
+    - generic [ref=e607]:
+      - generic [ref=e608]:
+        - heading "Énairgie & Diététique" [level=4] [ref=e609]
+        - paragraph [ref=e610]: Respirer, se nourrir, rayonner.
+      - generic [ref=e611]:
+        - paragraph [ref=e612]: © 2026 Énairgie & Diététique — Laura Litaudon
+        - paragraph [ref=e613]: Tous droits réservés
+        - generic [ref=e614]:
+          - generic [ref=e615]: N° ADELI 10007258261
+          - generic [ref=e616]: Certifiée Reiki Usui

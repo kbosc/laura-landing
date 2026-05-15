@@ -4,6 +4,7 @@ import Button from '@/components/ui/Button/Button';
 import { DOCTOLIB_URL, CRENOLIBRE_URL } from '@/utils/constants';
 import { scrollTo } from '@/utils/scrollTo';
 import bannerBg from '@/assets/banner-bis.jpg';
+import logo from '@/assets/logo.png';
 import styles from './Hero.module.scss';
 
 export default function Hero() {
@@ -14,6 +15,17 @@ export default function Hero() {
       </div>
 
       <div className={styles.content}>
+        <motion.img
+          src={logo}
+          alt="Logo Énairgie & Diététique"
+          className={styles.logo}
+          width={160}
+          height={160}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+        />
+
         <motion.h1
           className={styles.title}
           initial={{ opacity: 0, y: 30 }}

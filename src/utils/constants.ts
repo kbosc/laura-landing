@@ -6,6 +6,12 @@ export const EMAIL = 'energie.dietetique@gmail.com';
 export const PHONE = '07 43 65 36 91';
 export const ADDRESS = 'Montévrain (77144) — Seine-et-Marne';
 
+export const COLORS = {
+  bg: '#FAF8F5',
+  bgAlt: '#F3EDE4',
+  text: '#3A2E2A',
+} as const;
+
 export const SECTION_IDS = {
   hero: 'hero',
   storytelling: 'storytelling',
