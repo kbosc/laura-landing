@@ -52,7 +52,7 @@ export const pricingData: PricingCategory[] = [
           { title: '2 questions', price: '16 €' },
           { title: '3 questions', price: '21 €' },
           { title: 'Tirage Professionnel', price: '30 €', highlight: true },
-          { title: 'Tirage sentimental', price: '40 €', highlight: true },
+          { title: 'Tirage Sentimental', price: '40 €', highlight: true },
           { title: 'Tirage Personnel', price: '50 €', highlight: true },
         ],
       },

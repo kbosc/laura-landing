@@ -114,10 +114,12 @@ La guidance peut se faire en présentiel, en visioconférence ou par appel/Whats
 Vous recevez également un support écrit à la fin avec la réponse à votre question.
 
 Je propose plusieurs forfaits :
-• 1 question : 10 €
-• 3 questions : 30 €
-• Pack vie sentimentale : 45 €
-• Pack vie professionnelle : 45 €
+• 1 question : 8 €
+• 2 questions : 16 €
+• 3 questions : 21 €
+• Tirage Professionnel : 30 €
+• Tirage Sentimental : 40 €
+• Tirage Personnel : 50 €
 • Tirage complet : vie sentimentale, vie professionnelle, évolution personnelle et blocages + 2 questions personnelles
 
 ⚠️ Pas de question sur la grossesse, la santé ou la mort.`,
