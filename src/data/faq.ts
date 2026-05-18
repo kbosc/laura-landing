@@ -47,6 +47,6 @@ export const faqData: FAQItem[] = [
   },
   {
     question: 'Comment se déroule une première consultation diététique ?',
-    answer: 'La première consultation comporte un bilan complet : retour sur ce qui vous a amené à consulter, tour d\'horizon de vos habitudes de vie et données médicales. En fin de séance, nous définissons ensemble les objectifs et une liste d\'actions. Une organisation alimentaire personnalisée vous est remise sous 48h.',
+    answer: 'La première consultation comporte un bilan complet : retour sur ce qui vous a amené à consulter, tour d\'horizon de vos habitudes de vie et données médicales. En fin de séance, nous définissons ensemble les objectifs et une liste d\'actions. Une répartition alimentaire personnalisée vous est remise sous 48h.',
   },
 ];
