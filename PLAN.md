@@ -33,9 +33,9 @@ Objectif : remplacer la description anglaise (héritage Wix) par un référencem
 ### Améliorations futures
 | # | Tâche | Statut |
 |---|-------|--------|
-| 13 | Score Lighthouse SEO ≥ 95 (audit complet) | ⬜ |
-| 14 | Score Lighthouse Accessibilité ≥ 90 | ⬜ |
-| 15b | Score Lighthouse Performance ≥ 85 — **images à optimiser** (logo 2.9MB, portrait 1.7MB, bannière 528KB) | ⬜ |
+| 13 | Score Lighthouse SEO ≥ 95 (audit complet) | ✅ |
+| 14 | Score Lighthouse Accessibilité ≥ 90 — Myths keyboard, Prestations ARIA, Navbar a11y, étoiles sr-only | ✅ |
+| 15b | `vite-plugin-image-optimizer` — logo 2.9MB→380KB, portrait 1.7MB→675KB, favicon 447KB→105KB (-70% total) | ✅ |
 | 16 | Balises `hreflang` (si version multi-langue envisagée — facultatif) | ⬜ |
 
 ---

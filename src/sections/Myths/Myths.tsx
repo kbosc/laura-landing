@@ -13,18 +13,23 @@ function MythCard({ myth, reality }: { myth: string; reality: string }) {
 
   return (
     <motion.div
+      role="button"
+      tabIndex={0}
+      aria-pressed={flipped}
+      aria-label={flipped ? `Réalité : ${reality}` : `Idée reçue : ${myth}. Appuyez pour révéler la réalité.`}
       className={`${styles.card} ${flipped ? styles.flipped : ''}`}
       variants={fadeInUp}
       onClick={() => setFlipped(!flipped)}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setFlipped(!flipped); } }}
     >
-      <div className={styles.cardInner}>
+      <div className={styles.cardInner} aria-hidden="true">
         <div className={`${styles.cardFace} ${styles.front}`}>
-          <span className={styles.badge}>❌ Idée reçue</span>
+          <span className={styles.badge}><span aria-hidden="true">❌ </span>Idée reçue</span>
           <p>« {myth} »</p>
           <span className={styles.hint}>Cliquez pour découvrir la réalité</span>
         </div>
         <div className={`${styles.cardFace} ${styles.back}`}>
-          <span className={styles.badge}>✅ Réalité</span>
+          <span className={styles.badge}><span aria-hidden="true">✅ </span>Réalité</span>
           <p>{reality}</p>
         </div>
       </div>

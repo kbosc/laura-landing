@@ -12,7 +12,6 @@
   background: $color-white;
   border-radius: $radius-md;
   box-shadow: $shadow-sm;
-  overflow: hidden;
   border: 1px solid $color-border;
   transition: border-color $transition-base;
 
@@ -32,6 +31,13 @@
   cursor: pointer;
   text-align: left;
   gap: $space-4;
+  border-radius: $radius-md;
+
+  &:focus-visible {
+    outline: 2px solid $color-gold;
+    outline-offset: -2px;
+    border-radius: $radius-md;
+  }
 
   span {
     font-family: $font-sans;

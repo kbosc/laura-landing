@@ -31,6 +31,15 @@
   align-items: center;
   gap: $space-3;
   cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+
+  &:focus-visible {
+    outline: 2px solid $color-gold;
+    outline-offset: 4px;
+    border-radius: $radius-sm;
+  }
 
   img {
     height: 48px;

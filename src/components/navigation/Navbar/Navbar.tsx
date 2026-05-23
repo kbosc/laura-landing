@@ -26,9 +26,13 @@ export default function Navbar() {
     <>
       <nav className={`${styles.navbar} ${isNavScrolled ? styles.scrolled : styles.transparent}`}>
         <div className={styles.inner}>
-          <div className={styles.logo} onClick={() => handleNavClick('#hero')}>
-            <span className={styles.logoText}>Énairgie & Diététique</span>
-          </div>
+          <button
+            className={styles.logo}
+            onClick={() => handleNavClick('#hero')}
+            aria-label="Retour en haut de page — Énairgie & Diététique"
+          >
+            <span className={styles.logoText} aria-hidden="true">Énairgie & Diététique</span>
+          </button>
 
           <div className={styles.navLinks}>
             {navigationItems.map((item) =>
@@ -70,6 +74,8 @@ export default function Navbar() {
             className={`${styles.hamburger} ${isMobileMenuOpen ? styles.hamburgerOpen : ''}`}
             onClick={toggleMobileMenu}
             aria-label="Menu"
+            aria-expanded={isMobileMenuOpen}
+            aria-controls="mobile-menu"
           >
             <span /><span /><span />
           </button>
@@ -79,6 +85,7 @@ export default function Navbar() {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
+            id="mobile-menu"
             className={styles.mobileMenu}
             initial={{ opacity: 0, x: '100%' }}
             animate={{ opacity: 1, x: 0 }}

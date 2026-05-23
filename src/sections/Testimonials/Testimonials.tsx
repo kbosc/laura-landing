@@ -26,11 +26,12 @@ export default function Testimonials() {
             whileHover={{ y: -4, boxShadow: '0 12px 32px rgba(58,46,42,0.14)' }}
           >
             <span className={styles.quote}>"</span>
-            <div className={styles.stars}>
+            <div className={styles.stars} aria-hidden="true">
               {Array.from({ length: t.rating }).map((_, i) => (
                 <Star key={i} />
               ))}
             </div>
+            <span className="sr-only">{t.rating} étoiles sur 5</span>
             <p className={styles.text}>{t.text}</p>
             <div className={styles.author}>
               <div className={styles.avatar}>
@@ -53,7 +54,7 @@ export default function Testimonials() {
           rel="noopener noreferrer"
           className={styles.googleLink}
         >
-          <ExternalLink size={16} />
+          <ExternalLink size={16} aria-hidden="true" />
           Voir tous les avis sur Google
         </a>
       </div>

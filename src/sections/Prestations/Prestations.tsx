@@ -24,7 +24,7 @@ const tabConfig = {
   },
   energy: {
     label: 'Énergétique',
-    color: '#9B7EC8',
+    color: '#8B5CF6',
     intro: 'L\'énergétique, que ça soit à l\'aide de soins énergétiques, de guidances ou la cartomancie, vous permettra d\'aller plus en profondeur pour mieux vous comprendre et comprendre votre fonctionnement. Cela vous apportera également de la douceur, de la relaxation et du bien-être.',
     subtitle: 'Reconnectez-vous à votre harmonie intérieure',
     services: energyServices,
@@ -60,7 +60,7 @@ export default function Prestations() {
         subtitle={config.subtitle}
       />
 
-      <div className={styles.tabs} style={{ position: 'relative' }}>
+      <div className={styles.tabs} style={{ position: 'relative' }} role="tablist" aria-label="Univers de prestations">
         <motion.div
           className={styles.tabIndicator}
           animate={{
@@ -69,10 +69,15 @@ export default function Prestations() {
           }}
           transition={{ type: 'spring', stiffness: 300, damping: 30 }}
           style={{ backgroundColor: config.color }}
+          aria-hidden="true"
         />
         {(['diet', 'energy'] as Tab[]).map((tab) => (
           <button
             key={tab}
+            role="tab"
+            aria-selected={activeTab === tab}
+            aria-controls={`prestations-panel-${tab}`}
+            id={`prestations-tab-${tab}`}
             className={`${styles.tab} ${activeTab === tab ? styles.tabActive : ''}`}
             onClick={() => setActiveTab(tab)}
           >
@@ -84,6 +89,9 @@ export default function Prestations() {
       <AnimatePresence mode="wait">
         <motion.div
           key={activeTab}
+          id={`prestations-panel-${activeTab}`}
+          role="tabpanel"
+          aria-labelledby={`prestations-tab-${activeTab}`}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
