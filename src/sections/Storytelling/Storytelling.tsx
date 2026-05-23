@@ -29,6 +29,7 @@ export default function Storytelling() {
             className={styles.portrait}
             width={340}
             height={340}
+            loading="lazy"
           />
         </motion.div>
 

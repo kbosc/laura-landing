@@ -48,6 +48,16 @@
   color: $color-white;
 }
 
+.tabDiet:focus-visible {
+  outline: 2px solid $color-diet;
+  outline-offset: 2px;
+}
+
+.tabEnergy:focus-visible {
+  outline: 2px solid $color-energy;
+  outline-offset: 2px;
+}
+
 .accordion {
   max-width: 760px;
   margin: 0 auto;
@@ -60,7 +70,6 @@
   background: $color-white;
   border-radius: $radius-lg;
   box-shadow: $shadow-sm;
-  overflow: hidden;
   border: 1px solid $color-border;
   transition: box-shadow $transition-base;
 
@@ -88,6 +97,19 @@
   cursor: pointer;
   text-align: left;
   gap: $space-4;
+  border-radius: $radius-lg;
+}
+
+.itemDiet .trigger:focus-visible {
+  outline: 2px solid $color-diet;
+  outline-offset: -2px;
+  border-radius: $radius-lg;
+}
+
+.itemEnergy .trigger:focus-visible {
+  outline: 2px solid $color-energy;
+  outline-offset: -2px;
+  border-radius: $radius-lg;
 }
 
 .triggerTitle {

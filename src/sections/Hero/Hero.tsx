@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.bgImage}>
-        <img src={bannerBg} alt="" aria-hidden="true" />
+        <img src={bannerBg} alt="" aria-hidden="true" fetchPriority="high" loading="eager" />
       </div>
 
       <div className={styles.content}>

@@ -16,9 +16,10 @@ import Contact from '@/sections/Contact/Contact';
 function App() {
   return (
     <>
+      <a href="#main-content" className="skip-link">Aller au contenu principal</a>
       <GradientOverlay />
       <Navbar />
-      <main>
+      <main id="main-content">
         <Hero />
         <WaveDivider colorAbove={COLORS.bg} colorBelow={COLORS.bg} />
         <Storytelling />

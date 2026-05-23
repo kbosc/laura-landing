@@ -22,6 +22,8 @@ export default function FAQ() {
         subtitle="Tout ce que vous voulez savoir avant de prendre rendez-vous"
       />
 
+      <div aria-live="polite" aria-atomic="false" className="sr-only" />
+
       <motion.div
         className={styles.list}
         variants={staggerContainer}

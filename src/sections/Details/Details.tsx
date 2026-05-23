@@ -10,7 +10,7 @@ type Tab = 'diet' | 'energy';
 
 const tabColors: Record<Tab, string> = {
   diet: '#6EA86A',
-  energy: '#9B7EC8',
+  energy: '#8B5CF6',
 };
 
 function AccordionItem({
@@ -90,7 +90,7 @@ export default function Details() {
             aria-selected={activeTab === tab}
             aria-controls={`details-panel-${tab}`}
             id={`details-tab-${tab}`}
-            className={`${styles.tab} ${activeTab === tab ? styles.tabActive : ''}`}
+            className={`${styles.tab} ${activeTab === tab ? styles.tabActive : ''} ${tab === 'diet' ? styles.tabDiet : styles.tabEnergy}`}
             onClick={() => setActiveTab(tab)}
           >
             {detailGroups.find((g) => g.universe === tab)!.label}

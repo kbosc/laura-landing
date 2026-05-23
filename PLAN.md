@@ -19,6 +19,7 @@ Objectif : remplacer la description anglaise (héritage Wix) par un référencem
 | 5 | `sitemap.xml` | ✅ |
 | 6 | Balise `<link rel="canonical">` | ✅ |
 | 7 | Méta géolocalisation (`geo.region`, `geo.placename`) | ✅ |
+| 15 | `fetchpriority="high"` sur le hero, `loading="lazy"` sur les images below-fold | ✅ |
 
 ### Actions manuelles requises (hors code)
 | # | Tâche | Statut |
@@ -34,7 +35,7 @@ Objectif : remplacer la description anglaise (héritage Wix) par un référencem
 |---|-------|--------|
 | 13 | Score Lighthouse SEO ≥ 95 (audit complet) | ⬜ |
 | 14 | Score Lighthouse Accessibilité ≥ 90 | ⬜ |
-| 15 | Score Lighthouse Performance ≥ 85 (lazy loading images, preload fonts) | ⬜ |
+| 15b | Score Lighthouse Performance ≥ 85 — **images à optimiser** (logo 2.9MB, portrait 1.7MB, bannière 528KB) | ⬜ |
 | 16 | Balises `hreflang` (si version multi-langue envisagée — facultatif) | ⬜ |
 
 ---
@@ -43,18 +44,10 @@ Objectif : remplacer la description anglaise (héritage Wix) par un référencem
 
 | # | Tâche | Statut |
 |---|-------|--------|
-| 17 | Audit contraste couleurs (WCAG AA, ratio ≥ 4.5:1) | ⬜ |
-| 18 | Skip-link "Aller au contenu principal" | ⬜ |
-| 19 | Focus visible sur tous les éléments interactifs | ⬜ |
-| 20 | `aria-live` sur la FAQ accordion | ⬜ |
-
----
-
-## Évolution design (demande Laura, avril 2026)
-
-| # | Tâche | Statut |
-|---|-------|--------|
-| 21 | Couleur énergétique : passer de rose poudré `#D4A0A7` → violet `#8B5CF6` | ⬜ |
+| 17 | Audit contraste couleurs (WCAG AA, ratio ≥ 4.5:1) — violet `#8B5CF6` sur blanc ≈ 4.1:1 (acceptable pour grands textes/boutons) | ✅ |
+| 18 | Skip-link "Aller au contenu principal" | ✅ |
+| 19 | Focus visible `:focus-visible` sur tous les éléments interactifs | ✅ |
+| 20 | `aria-live` sur la FAQ accordion | ✅ |
 
 ---
 
