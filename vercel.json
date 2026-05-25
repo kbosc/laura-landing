@@ -2,5 +2,15 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
+  "redirects": [
+    { "source": "/feed", "destination": "/", "permanent": true },
+    { "source": "/feed/", "destination": "/", "permanent": true },
+    { "source": "/comments/feed", "destination": "/", "permanent": true },
+    { "source": "/comments/feed/", "destination": "/", "permanent": true },
+    { "source": "/category/:path*", "destination": "/", "permanent": true },
+    { "source": "/wp-admin/:path*", "destination": "/", "permanent": true },
+    { "source": "/wp-content/:path*", "destination": "/", "permanent": true },
+    { "source": "/umidigi-app", "destination": "/", "permanent": true }
+  ],
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
