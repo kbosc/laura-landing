@@ -78,7 +78,7 @@ export default function Prestations() {
             aria-selected={activeTab === tab}
             aria-controls={`prestations-panel-${tab}`}
             id={`prestations-tab-${tab}`}
-            className={`${styles.tab} ${activeTab === tab ? styles.tabActive : ''}`}
+            className={`${styles.tab} ${activeTab === tab ? styles.tabActive : ''} ${tab === 'diet' ? styles.tabDiet : styles.tabEnergy}`}
             onClick={() => setActiveTab(tab)}
           >
             {tabConfig[tab].label}

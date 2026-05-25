@@ -47,6 +47,16 @@
   color: $color-white;
 }
 
+.tabDiet:focus-visible {
+  outline: 2px solid $color-diet;
+  outline-offset: 2px;
+}
+
+.tabEnergy:focus-visible {
+  outline: 2px solid $color-energy;
+  outline-offset: 2px;
+}
+
 .intro {
   text-align: center;
   max-width: 700px;
