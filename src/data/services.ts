@@ -44,12 +44,12 @@ export const dietServices: Service[] = [
   {
     icon: 'ShieldCheck',
     title: 'Formation HACCP et allergies alimentaires',
-    description: 'Je propose d\'animer des formations au sein de votre cuisine collective ou encore au sein de votre restaurant privé. L\'idée et de vous assurer le respect des normes d\'hygiène dans vos établissements et la formation de vos agents pour les cuisines collectives.',
+    description: 'Je propose d\'animer des formations au sein de votre cuisine collective ou encore au sein de votre restaurant privé. L\'idée est de vous assurer le respect des normes d\'hygiène dans vos établissements et la formation de vos agents pour les cuisines collectives.',
   },
    {
     icon: 'ClipboardCheck',
     title: 'Aide à la création et l\'application du PMS (Plan de Maîtrise Sanitaire)',
-    description: 'Je vous propose mon aide afin de crée et veiller à \'application du PMS (Plan de Maîtrise Sanitaire) au sein de votre établissement.',
+    description: 'Je vous propose mon aide afin de créer et veiller à l\'application du PMS (Plan de Maîtrise Sanitaire) au sein de votre établissement.',
   }
 ];
 

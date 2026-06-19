@@ -51,7 +51,7 @@ export default function Contact() {
               <div className={styles.iconCircle}><Clock /></div>
               <div className={styles.infoText}>
                 <h4>Horaires</h4>
-                <p>lundi, 9h30 – 19h30<br />Jeudi, 10h15 - 18h30</p>
+                <p>Lundi, 9h30 – 19h30<br />Jeudi, 10h15 - 18h30</p>
               </div>
             </div>
 

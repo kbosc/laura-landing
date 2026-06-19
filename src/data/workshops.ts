@@ -34,7 +34,7 @@ export const workshops: Workshop[] = [
   {
     icon: 'Baby',
     title: 'Diversification alimentaire de vos bébés',
-    description: 'Un atelier entre mamans (et/ou papas) pour aborder les tous premiers repas de vos bébés. On y parlera de diversification classique mais aussi de la fameuse DME : diversification menée par l\'enfant.',
+    description: 'Un atelier entre mamans (et/ou papas) pour aborder les tout premiers repas de vos bébés. On y parlera de diversification classique mais aussi de la fameuse DME : diversification menée par l\'enfant.',
   },
   {
     icon: 'Milk',
@@ -44,6 +44,6 @@ export const workshops: Workshop[] = [
   {
     icon: 'HandHeart',
     title: 'Hyperphagie, boulimie, émotions',
-    description: 'Quand notre monde intérieur impact notre alimentation. Venez approfondir vos connaissance et mettre des mots sur vos maux afin de pouvoir enfin faire la paix avec votre alimentation'
+    description: 'Quand notre monde intérieur impact notre alimentation. Venez approfondir vos connaissances et mettre des mots sur vos maux afin de pouvoir enfin faire la paix avec votre alimentation'
   }
 ];
