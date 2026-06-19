@@ -3,6 +3,7 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.laura-equilibre.fr" }], "destination": "https://laura-equilibre.fr/:path*", "permanent": true },
     { "source": "/feed", "destination": "/", "permanent": true },
     { "source": "/feed/", "destination": "/", "permanent": true },
     { "source": "/comments/feed", "destination": "/", "permanent": true },
@@ -16,7 +17,8 @@
     { "source": "/hello-world", "destination": "/", "permanent": true },
     { "source": "/hello-world/", "destination": "/", "permanent": true },
     { "source": "/:year(\\d{4})/:month(\\d{2})", "destination": "/", "permanent": true },
-    { "source": "/:year(\\d{4})/:month(\\d{2})/", "destination": "/", "permanent": true }
+    { "source": "/:year(\\d{4})/:month(\\d{2})/", "destination": "/", "permanent": true },
+    { "source": "/:path+", "destination": "/", "permanent": true }
   ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [{ "source": "/", "destination": "/index.html" }]
 }
