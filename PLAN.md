@@ -5,11 +5,8 @@ Statuts : ⬜ à faire · 🔄 en cours · ✅ terminé
 
 ---
 
-## SEO & Référencement naturel
+## SEO & Référencement naturel ✅
 
-Objectif : remplacer la description anglaise (héritage Wix) par un référencement français complet, et positionner Laura sur les recherches locales (Montévrain, 77, Seine-et-Marne).
-
-### Correctifs urgents
 | # | Tâche | Statut |
 |---|-------|--------|
 | 1 | Balises `<title>` et `<meta description>` en français avec mots-clés locaux | ✅ |
@@ -19,41 +16,61 @@ Objectif : remplacer la description anglaise (héritage Wix) par un référencem
 | 5 | `sitemap.xml` | ✅ |
 | 6 | Balise `<link rel="canonical">` | ✅ |
 | 7 | Méta géolocalisation (`geo.region`, `geo.placename`) | ✅ |
-| 15 | `fetchpriority="high"` sur le hero, `loading="lazy"` sur les images below-fold | ✅ |
+| 8 | `fetchpriority="high"` sur le hero, `loading="lazy"` sur les images below-fold | ✅ |
+| 9 | Redirects 301 vieilles URLs WordPress (`/feed`, `/category/`, `/wp-admin/`, etc.) | ✅ |
+| 10 | Redirect 308 `www.laura-equilibre.fr` → `laura-equilibre.fr` (Vercel Domains) | ✅ |
 
-### Actions manuelles requises (hors code)
+### Actions manuelles
 | # | Tâche | Statut |
 |---|-------|--------|
-| 8 | Créer un compte Google Search Console sur laura-equilibre.fr | ⬜ |
-| 9 | Vérifier la propriété du site dans Search Console | ⬜ |
-| 10 | Demander une réindexation manuelle depuis Search Console | ⬜ |
-| 11 | Créer une image OG (`public/og-image.jpg`, 1200×630px) — photo de Laura ou logo | ⬜ |
-| 12 | Inscrire le cabinet sur Google Business Profile (fiche Google Maps) | ⬜ |
-
-### Améliorations futures
-| # | Tâche | Statut |
-|---|-------|--------|
-| 13 | Score Lighthouse SEO ≥ 95 (audit complet) | ✅ |
-| 14 | Score Lighthouse Accessibilité ≥ 90 — Myths keyboard, Prestations ARIA, Navbar a11y, étoiles sr-only | ✅ |
-| 15b | `vite-plugin-image-optimizer` — logo 2.9MB→380KB, portrait 1.7MB→675KB, favicon 447KB→105KB (-70% total) | ✅ |
-| 16 | Balises `hreflang` (si version multi-langue envisagée — facultatif) | ⬜ |
+| M1 | Créer `public/og-image.jpg` (1200×630px) — photo de Laura ou visuel de marque | ⬜ |
+| M2 | Inscrire le cabinet sur Google Business Profile (fiche Google Maps) | ⬜ |
+| M3 | Demander revalidation Search Console "Page en double" | ⬜ |
 
 ---
 
-## Accessibilité & UX
+## Accessibilité ✅ / 🔄
 
 | # | Tâche | Statut |
 |---|-------|--------|
-| 17 | Audit contraste couleurs (WCAG AA, ratio ≥ 4.5:1) — violet `#8B5CF6` sur blanc ≈ 4.1:1 (acceptable pour grands textes/boutons) | ✅ |
-| 18 | Skip-link "Aller au contenu principal" | ✅ |
-| 19 | Focus visible `:focus-visible` sur tous les éléments interactifs | ✅ |
-| 20 | `aria-live` sur la FAQ accordion | ✅ |
+| A1 | Skip-link "Aller au contenu principal" | ✅ |
+| A2 | Focus visible `:focus-visible` sur tous les éléments interactifs | ✅ |
+| A3 | `aria-live` sur la FAQ accordion | ✅ |
+| A4 | `role="tablist/tab/tabpanel"` + `aria-expanded` sur FAQ et Prestations | ✅ |
+| A5 | **`<MotionConfig reducedMotion="user" />`** — activer le respect de `prefers-reduced-motion` pour toutes les animations Framer Motion | ✅ |
+| A6 | Animation CSS `bounce` Hero sans `@media (prefers-reduced-motion)` | ✅ |
+| A7 | `aria-hidden="true"` sur les icônes décoratives Lucide dans Prestations | ✅ |
+| A8 | Dropdown Navbar inaccessible au clavier (hover only → gérer focus/clic) | ⬜ |
+
+---
+
+## Performance & Bundle
+
+| # | Tâche | Statut |
+|---|-------|--------|
+| P1 | `vite-plugin-image-optimizer` en place | ✅ |
+| P2 | Double import Google Fonts (SCSS + HTML) — consolidation dans `index.html`, suppression `@import` SCSS | ✅ |
+| P3 | Supprimer `banner-bg.jpg` (jamais importé) | ✅ |
+| P4 | Redimensionner `laura-profil.jpg` (1908×3392 → 680×680px WebP) | ⬜ |
+| P5 | Redimensionner `logo.png` (1536×1024, 2.8MB → SVG ou WebP 200px) | ⬜ |
+| P6 | Lazy loading des sections below-the-fold (`React.lazy()`) | ⬜ |
+| P7 | Headers de cache explicites dans `vercel.json` pour assets hachés | ✅ |
+
+---
+
+## Qualité du code
+
+| # | Tâche | Statut |
+|---|-------|--------|
+| Q1 | `npm audit fix` — 8 vulnérabilités (3 HIGH : Vite path traversal, PostCSS XSS) | ✅ |
+| Q2 | Supprimer dead code `ScrollToTop` commenté dans `App.tsx:41-43` | ✅ |
+| Q3 | Supprimer variables SCSS en double (`$color-lavender` = `$color-energy`) | ✅ |
 
 ---
 
 ## Notes techniques
 
-- **Domaine déployé** : `https://laura-equilibre.fr/`
-- **Hébergement** : Vercel
-- **Google recrawl** : après déploiement, utiliser Search Console → "Demander l'indexation" sur l'URL racine
-- La description anglaise ("Create the life you want to live...") vient de l'ancien site Wix — elle disparaîtra dans les 1 à 4 semaines après réindexation
+- **Domaine** : `https://laura-equilibre.fr/` — Vercel
+- **og-image** : créer un visuel 1200×630px et le déposer dans `public/og-image.jpg`
+- **Dropdown clavier (A8)** : ajouter un state `isOpen` dans la Navbar et gérer `onClick` + `onKeyDown Enter/Space`
+- **Images (P4/P5)** : utiliser Squoosh ou `sharp` CLI pour convertir en WebP avant dépôt dans `src/assets/`

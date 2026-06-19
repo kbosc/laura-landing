@@ -51,6 +51,6 @@ const iconMap: Record<string, LucideIcon> = {
 
 export function getIcon(name: string, size = 24) {
   const Icon = iconMap[name];
-  return Icon ? <Icon size={size} /> : null;
+  return Icon ? <Icon size={size} aria-hidden="true" /> : null;
 }
 

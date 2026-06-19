@@ -140,6 +140,10 @@
     width: 24px;
     height: 24px;
     animation: bounce 2s ease infinite;
+
+    @media (prefers-reduced-motion: reduce) {
+      animation: none;
+    }
   }
 }
 

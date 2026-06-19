@@ -38,9 +38,6 @@ function App() {
         <WaveDivider colorAbove={COLORS.bgAlt} colorBelow={COLORS.bg} />
         <Contact />
       </main>
-      {
-      // <ScrollToTop />
-      }
     </>
   );
 }
